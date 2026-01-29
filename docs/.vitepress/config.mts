@@ -4,14 +4,15 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: '/xuchenxuBlog/',
   title: "XUCHENXU2004's Blog",
-  description: "A VitePress Site",
+  description: "基于 Vitepress 的轻量化博客",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '文章', link: '/posts/' },
+      { text: '关于', link: '/about' }
     ],
-
+    //自定义侧边栏
     sidebar: [
       {
         text: 'Examples',
@@ -23,7 +24,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/xuchenxu2004' }
     ]
   }
 })
