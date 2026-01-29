@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/xuchenxuBlog/',
+  base: '/',
   title: "XUCHENXU2004's Blog",
   description: "基于 Vitepress 的轻量化博客",
   themeConfig: {
