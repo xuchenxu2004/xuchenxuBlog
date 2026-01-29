@@ -8,7 +8,9 @@ export default defineConfig({
   title: "XUCHENXU2004's Blog",
   description: "基于 Vitepress 的轻量化博客",
   lastUpdated: true, 
+  ignoreDeadLinks: false,
   themeConfig: {
+    logo: '/web_logo.png',
 
     // https://vitepress.dev/reference/default-theme-config
 
@@ -27,7 +29,7 @@ export default defineConfig({
       { text: '学习笔记', link: '/' },
       { text: '阅读笔记', link: '/' },
       { text: '语言学习', link: '/' },
-      { text: 'VitePress', link: 'https://vitepress.dev/zh/' },
+      { text: '', link: 'https://vitepress.dev/zh/' },
 
     ],
     //自定义侧边栏
@@ -68,7 +70,7 @@ export default defineConfig({
       message: 'Released under the MIT License.', 
       copyright: 'Copyright © 2026-2030 present xuchenxu2004', 
       // 自动更新时间
-      //copyright: `Copyright © 2019-${new Date().getFullYear()} present Evan You`, 
+      //copyright: VitePress`Copyright © 2019-${new Date().getFullYear()} present Evan You`, 
     }, 
   }
   

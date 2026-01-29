@@ -6,20 +6,26 @@ hero: #整个屏幕的上半部分
   name: "XUCHENXU2004's Blog"
   text: "基于 Vitepress 的个人博客"
   tagline: 学习·生活·语言·爱好·技术
+  image:
+  src: /web_logo.png
+  alt: VitePress
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Markdown示例
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: API示例
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 徐晨旭
+    details: 我的个人博客
 ---
+## 让我们开始吧
 
+我将用Vitepress来尝试完成这个网站
+
+```sh
+npm init
+npx vitepress init
+```
