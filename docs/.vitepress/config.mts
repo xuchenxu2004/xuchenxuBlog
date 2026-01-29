@@ -65,7 +65,7 @@ export default defineConfig({
     //页脚
     footer: { 
       message: 'Released under the MIT License.', 
-      copyright: 'Copyright © 2019-${new Date().getFullYear()} present xuchenxu2004', 
+      copyright: 'Copyright © 2026-2030 present xuchenxu2004', 
       // 自动更新时间
       //copyright: `Copyright © 2019-${new Date().getFullYear()} present Evan You`, 
     }, 
