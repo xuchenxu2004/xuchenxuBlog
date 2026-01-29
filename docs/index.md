@@ -1,11 +1,11 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
-layout: home
+layout: home #使用首页布局模板
 
-hero:
+hero: #整个屏幕的上半部分
   name: "XUCHENXU2004's Blog"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  text: "基于 Vitepress 的个人博客"
+  tagline: 学习·生活·语言·爱好·技术
   actions:
     - theme: brand
       text: Markdown Examples

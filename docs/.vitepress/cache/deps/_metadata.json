@@ -1,31 +1,43 @@
 {
-  "hash": "89786fad",
-  "configHash": "9a79fd0d",
-  "lockfileHash": "05767d49",
-  "browserHash": "41fe0d65",
+  "hash": "f7270ea2",
+  "configHash": "42311dd4",
+  "lockfileHash": "9c5a56b4",
+  "browserHash": "3bd83bfc",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/.pnpm/vue@3.5.27/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "45fe6b1d",
+      "fileHash": "e7bd1315",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.7.9/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "2755157c",
+      "fileHash": "152bb9bd",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/.pnpm/@vueuse+core@12.8.2/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "edc873e6",
+      "fileHash": "dba8b5e7",
       "needsInterop": false
     },
-    "@theme/index": {
-      "src": "../../../../node_modules/.pnpm/vitepress@1.6.4_@algolia+client-search@5.47.0_@types+node@25.1.0_postcss@8.5.6_search-insights@2.17.3/node_modules/vitepress/dist/client/theme-default/index.js",
-      "file": "@theme_index.js",
-      "fileHash": "3dd7bc92",
+    "vitepress > @vueuse/integrations/useFocusTrap": {
+      "src": "../../../../node_modules/.pnpm/@vueuse+integrations@12.8.2_focus-trap@7.8.0/node_modules/@vueuse/integrations/useFocusTrap.mjs",
+      "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
+      "fileHash": "80d050c2",
+      "needsInterop": false
+    },
+    "vitepress > mark.js/src/vanilla.js": {
+      "src": "../../../../node_modules/.pnpm/mark.js@8.11.1/node_modules/mark.js/src/vanilla.js",
+      "file": "vitepress___mark__js_src_vanilla__js.js",
+      "fileHash": "de395d30",
+      "needsInterop": false
+    },
+    "vitepress > minisearch": {
+      "src": "../../../../node_modules/.pnpm/minisearch@7.2.0/node_modules/minisearch/dist/es/index.js",
+      "file": "vitepress___minisearch.js",
+      "fileHash": "962a1e08",
       "needsInterop": false
     }
   },

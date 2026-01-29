@@ -26,6 +26,7 @@ export default defineConfig({
       { text: '软件开发', link: '/' },
       { text: '学习笔记', link: '/' },
       { text: '阅读笔记', link: '/' },
+      { text: '语言学习', link: '/' },
       { text: 'VitePress', link: 'https://vitepress.dev/zh/' },
 
     ],
