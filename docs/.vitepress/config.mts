@@ -3,6 +3,9 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
+  head: [
+    ['link',{ rel: 'icon', href: '/web_logo.png'}],
+  ],
   lang: 'zh-CN', 
   base: '/',
   title: "XUCHENXU2004's Blog",
