@@ -8,7 +8,7 @@ export default defineConfig({
   ],
   lang: 'zh-CN', 
   base: '/',
-  title: "XUCHENXU2004's Blog",
+  title: "XUCHENXU2004",
   description: "基于 Vitepress 的轻量化博客",
   lastUpdated: true, 
   ignoreDeadLinks: false,
@@ -20,14 +20,45 @@ export default defineConfig({
     //顶部导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: '', link: '/' },
-      { text: 'Vitepress 导航',
+      { text: 'FRONT_END',
+        items:[
+          { text: 'HTML', link: '/' },
+          { text: 'CSS', link: '/' },
+          { text: 'JavaScript', link: '/' },
+          { text: '', link: '/' },
+          { text: '', link: '/' },
+          { text: '', link: '/' },
+          { text: '', link: '/' },
+          { text: '', link: '/' },
+          { text: '', link: '/' },
+        ]
+      },
+
+      { text: 'GUIDE',
+        items:[
+          { text: 'MarkDown-学习', link: '/guide/markdown-examples' },
+          { text: '', link: '/' },
+          { text: '', link: '/' },
+          { text: '', link: '/' },
+          { text: '', link: '/' },
+          { text: '', link: '/' },
+        ]
+      },
+      { text: '站点导航',
         //分组标题
         items: [
           { text: 'Vitepress中文站', link: 'https://vitepress.dev/zh/' },
           { text: '茂茂前端导航模版', link: 'https://fe-nav.netlify.app/' },
           { text: 'Vitepress中文教程', link: 'https://vitepress.yiov.top/' },
           { text: "伊奥's 教程集", link: 'http://yiov.top/' },
+          { text: "Goat_Yang的文档网站", link: 'https://goatyang.com/' },
+          { text: "AlbertZhang的文档网站", link: 'https://docs.bugdesigner.cn/' },
+          { text: "正心全栈编程 - 文档站", link: 'https://docs.zhengxinonly.com/' },
+          { text: '', link: '/' },
+          { text: '', link: '/' },
+          { text: '', link: '/' },
+          { text: '', link: '/' },
+
         ]
       },
 
@@ -36,18 +67,20 @@ export default defineConfig({
     sidebar: [
       {
         //分组标题
-        text: '指南',
+        text: 'FRONT-END LEARNING',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
         ]
       }
     ],
 
-    //社交链接
+    //社交链接,内置的都是国外的，国内的都需要通过svg自行复制。
     socialLinks: [
       { icon: 'github', link: 'https://github.com/xuchenxu2004' },
-      { icon: 'x', link: 'https://x.com/XCX_SZSZ' }, 
+      { icon: 'x', link: 'https://x.com/xuchenxu2004' }, 
     ],
+
+    //搜索框以及样式
     search: { 
       provider: 'local'
     }, 
@@ -67,10 +100,12 @@ export default defineConfig({
     //页脚
     footer: { 
       message: 'Released under the MIT License.', 
-      copyright: 'Copyright © 2026-2030 present xuchenxu2004', 
+      copyright: 'Copyright © 2025-2026 @xuchenxu2004', 
       // 自动更新时间
       //copyright: VitePress`Copyright © 2019-${new Date().getFullYear()} present Evan You`, 
     }, 
   }
   
+  
 })
+

@@ -7,15 +7,13 @@ hero: #整个屏幕的上半部分
   text: "基于 Vitepress 的个人博客"
   tagline: 学习·生活·语言·爱好·技术
   image:
-  src: /web_logo.png
-  alt: VitePress
+    src: /Enchanted_Book.gif
+    alt: 主页背景
   actions:
     - theme: brand
       text: Markdown示例
       link: /markdown-examples
-    - theme: alt
-      text: API示例
-      link: /api-examples
+
 
 features:
   - title: 徐晨旭
@@ -29,3 +27,4 @@ features:
 npm init
 npx vitepress init
 ```
+
