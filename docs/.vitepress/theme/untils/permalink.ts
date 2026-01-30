@@ -4,6 +4,7 @@ import fg from 'fast-glob';      // 快速文件系统匹配库
 import fs from 'fs/promises';    // Node.js文件系统Promise API
 import path from 'path';         // 路径处理库
 
+
 /**
  * 生成指定长度的随机字符串
  * @param {number} length - 需要生成的字符串长度
@@ -113,6 +114,7 @@ export const usePosts = async ({
         );
 
         // 计算相对路径并添加到重写规则
+        const rewrites: Record<string, string> = {}; // ✅ 关键修复
         const relativePath = postPath.replace(`${baseDir}/`, '');
         rewrites[relativePath.replace(/[+()]/g, '\\$&')] =
           `${data.permalink}.md`.slice(1).replace(/[+()]/g, '\\$&');
