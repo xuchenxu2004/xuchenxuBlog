@@ -1,5 +1,6 @@
-# HTML
-## 1.常见文本标签
+# 前端三剑客
+## HTML
+### 1.常见文本标签
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -60,7 +61,7 @@
 </body>
 </html>
 ```
-## 2.HTML属性
+### 2.HTML属性
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -82,7 +83,7 @@
 </body>
 </html>
 ```
-## 3.HTML区块
+### 3.HTML区块
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -119,7 +120,7 @@
 </body>
 </html>
 ```
-## 4.HTML表单
+### 4.HTML表单
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -157,7 +158,7 @@
 </body>
 </html>
 ```
-# CSS
-## 5.CSS导入方式
+## CSS
+### 5.CSS导入方式
 
-# JavaScript
+## JavaScript

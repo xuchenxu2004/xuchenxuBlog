@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@mdit-vue/plugin-frontmatter": "^3.0.2",
     "@types/canvas-confetti": "^1.9.0",
     "@types/node": "^25.1.0",
     "canvas-confetti": "^1.9.4",
