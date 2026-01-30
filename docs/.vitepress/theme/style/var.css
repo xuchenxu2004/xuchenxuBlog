@@ -31,13 +31,13 @@
 
 /* 调整 hero 区主标题 */
 .VPHero .name {
-    font-size: 3.2rem !important;
+    font-size: 3rem !important;
     line-height: 1.2;
 }
 
 /* 调整 hero 区文本描述 */
 .VPHero .text {
-    font-size: 2rem !important; 
+    font-size: 2rem !important; /*!important 是可以打破优先级规则的最高优先级 */
     margin-top: 1rem;
 }
 
