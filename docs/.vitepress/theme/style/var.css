@@ -29,6 +29,31 @@
     height: auto;
 }
 
+/* 调整 hero 区主标题 */
+.VPHero .name {
+    font-size: 3.2rem !important;
+    line-height: 1.2;
+}
+
+/* 调整 hero 区文本描述 */
+.VPHero .text {
+    font-size: 2rem !important; 
+    margin-top: 1rem;
+}
+
+/* 调整 hero 区标签行 */
+.VPHero .tagline {
+    font-size: 1.6rem !important; /* 默认是 1.2rem */
+    opacity: 0.8;
+}
+
+/* 调整操作按钮 */
+.VPHero .actions .VPButton {
+    font-size: 1.4rem;
+    padding: 0.2rem 1.2rem;
+}
+
+
 /*H1 标题渐变色*/
 .VPDoc h1 {
     background: -webkit-linear-gradient(10deg, #bd34fe 5%, #e43498 15%);   

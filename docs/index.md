@@ -11,20 +11,18 @@ hero: #整个屏幕的上半部分
     alt: 主页背景
   actions:
     - theme: brand
-      text: Markdown示例
-      link: /markdown-examples
+      text: 书中自有黄金屋
+      link: "/"
 
 
 features:
-  - title: 徐晨旭
-    details: 我的个人博客
+  - title: 技能学习
+    details: 主要是计算机相关的技能学习
+  - title: 读书笔记
+    details: 好词好句摘录，或许会有感想
+  - title: 语言学习
+    details: 想学日语和英语，感觉会记录一些方法的学习过程
+  - title: 生活爱好
+    details: 想放一点摄影图片，做一些摄影教程
 ---
-## 让我们开始吧
-
-我将用Vitepress来尝试完成这个网站
-
-```sh
-npm init
-npx vitepress init
-```
 

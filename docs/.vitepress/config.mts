@@ -22,7 +22,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: 'FRONT_END',
         items:[
-          { text: 'HTML', link: '/front_end_learning/html_learning' },
+          { text: 'HTML', link: '/chunk_front_end_learning/html_learning' },
           { text: 'CSS', link: '/' },
           { text: 'JavaScript', link: '/' },
           { text: '', link: '/' },
@@ -36,8 +36,8 @@ export default defineConfig({
 
       { text: 'GUIDE',
         items:[
-          { text: 'MarkDown-学习', link: '/guide/markdown-examples' },
-          { text: 'Vitepress-架构', link: '/guide/Vitepress-index' },
+          { text: 'MarkDown-学习', link: '/chunk_guide/markdown-examples' },
+          { text: 'Vitepress-架构', link: '/chunk_guide/Vitepress-index' },
           { text: '', link: '/' },
           { text: '', link: '/' },
           { text: '', link: '/' },
@@ -73,7 +73,7 @@ export default defineConfig({
         //分组标题
         text: 'FRONT-END LEARNING',
         items: [
-          { text: 'HTML', link: '/front_end_learning/html_learning' },
+          { text: 'HTML', link: '/chunk_front_end_learning/html_learning' },
           { text: 'CSS', link: '/' },
           { text: 'JavaScript', link: '/' },
           { text: '', link: '/' },
@@ -86,8 +86,8 @@ export default defineConfig({
         {
           text: 'GUIDE',
           items: [
-            { text: 'MarkDown-学习', link: '/guide/markdown-examples' },
-            { text: 'Vitepress-架构', link: '/guide/Vitepress-index' },
+            { text: 'MarkDown-学习', link: '/chunk_guide/markdown-examples' },
+            { text: 'Vitepress-架构', link: '/chunk_guide/Vitepress-index' },
           ],
         },
       ],
