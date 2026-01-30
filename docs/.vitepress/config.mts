@@ -20,19 +20,16 @@ export default defineConfig({
     //顶部导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: '指南',
+      { text: '', link: '/' },
+      { text: 'Vitepress 导航',
         //分组标题
         items: [
-          { text: 'A', link: '/' },
-          { text: 'B', link: '/' },
-          { text: 'C', link: '/' },
+          { text: 'Vitepress中文站', link: 'https://vitepress.dev/zh/' },
+          { text: '茂茂前端导航模版', link: 'https://fe-nav.netlify.app/' },
+          { text: 'Vitepress中文教程', link: 'https://vitepress.yiov.top/' },
+          { text: "伊奥's 教程集", link: 'http://yiov.top/' },
         ]
       },
-      { text: '软件开发', link: '/' },
-      { text: '学习笔记', link: '/' },
-      { text: '阅读笔记', link: '/' },
-      { text: '语言学习', link: '/' },
-      { text: '', link: 'https://vitepress.dev/zh/' },
 
     ],
     //自定义侧边栏
@@ -42,7 +39,6 @@ export default defineConfig({
         text: '指南',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
     ],
