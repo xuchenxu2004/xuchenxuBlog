@@ -20,11 +20,25 @@ export default defineConfig({
     //顶部导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: 'FRONT_END',
+      { text: 'FRONT-END',
         items:[
-          { text: 'HTML', link: '/chunk_front_end_learning/html_learning' },
-          { text: 'CSS', link: '/' },
-          { text: 'JavaScript', link: '/' },
+          { text: '前端三剑客', link: '/chunk_front_end_learning/Three_Front-End_Masters' },
+          { text: '', link: '/' },
+          { text: '', link: '/' },
+          { text: '', link: '/' },
+          { text: '', link: '/' },
+          { text: '', link: '/' },
+          { text: '', link: '/' },
+          { text: '', link: '/' },
+          { text: '', link: '/' },
+        ]
+      },
+
+      { text: 'COMPUTER SCIENCE',
+        items:[
+          { text: '机器学习', link: 'docs/chunk_front_end_learning/Three_Front-End_Masters.md' },
+          { text: '', link: '/' },
+          { text: '', link: '/' },
           { text: '', link: '/' },
           { text: '', link: '/' },
           { text: '', link: '/' },
@@ -68,26 +82,37 @@ export default defineConfig({
 
     sidebar: {
       // 目录1
-      '/front_end_learning/': [
+      '/chunk_front_end_learning/': [
         { 
         //分组标题
         text: 'FRONT-END LEARNING',
         items: [
-          { text: 'HTML', link: '/chunk_front_end_learning/html_learning' },
-          { text: 'CSS', link: '/' },
-          { text: 'JavaScript', link: '/' },
+          { text: '前端三剑客', link: '/chunk_front_end_learning/html_learning' },
+          { text: '', link: '/' },
+          { text: '', link: '/' },
           { text: '', link: '/' },
         ]
         }
       ],
 
       // 目录2
-      '/guide/': [
+      '/chunk_guide/': [
         {
           text: 'GUIDE',
           items: [
             { text: 'MarkDown-学习', link: '/chunk_guide/markdown-examples' },
             { text: 'Vitepress-架构', link: '/chunk_guide/Vitepress-index' },
+          ],
+        },
+      ],
+
+      '/chunk_books/': [
+        {
+          text: 'BOOKS',
+          items: [
+            
+            { text: '窄门', link: '/chunk_books/窄门' },
+            { text: '局外人', link: '/chunk_books/局外人' },
           ],
         },
       ],

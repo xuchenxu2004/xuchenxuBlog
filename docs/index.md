@@ -12,7 +12,7 @@ hero: #整个屏幕的上半部分
   actions:
     - theme: brand
       text: 书中自有黄金屋
-      link: "/"
+      link: "/chunk_books/窄门"
 
 
 features:
@@ -20,6 +20,7 @@ features:
     details: 主要是计算机相关的技能学习
   - title: 读书笔记
     details: 好词好句摘录，或许会有感想
+    link: "/chunk_books/窄门"
   - title: 语言学习
     details: 想学日语和英语，感觉会记录一些方法的学习过程
   - title: 生活爱好
