@@ -22,7 +22,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: 'FRONT_END',
         items:[
-          { text: 'HTML', link: '/' },
+          { text: 'HTML', link: '/front_end_learning/html_learning' },
           { text: 'CSS', link: '/' },
           { text: 'JavaScript', link: '/' },
           { text: '', link: '/' },
@@ -37,7 +37,7 @@ export default defineConfig({
       { text: 'GUIDE',
         items:[
           { text: 'MarkDown-学习', link: '/guide/markdown-examples' },
-          { text: '', link: '/' },
+          { text: 'Vitepress-架构', link: '/guide/Vitepress-index' },
           { text: '', link: '/' },
           { text: '', link: '/' },
           { text: '', link: '/' },
@@ -63,16 +63,35 @@ export default defineConfig({
       },
 
     ],
+    
     //自定义侧边栏
-    sidebar: [
-      {
+
+    sidebar: {
+      // 目录1
+      '/front_end_learning/': [
+        { 
         //分组标题
         text: 'FRONT-END LEARNING',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'HTML', link: '/front_end_learning/html_learning' },
+          { text: 'CSS', link: '/' },
+          { text: 'JavaScript', link: '/' },
+          { text: '', link: '/' },
         ]
-      }
-    ],
+        }
+      ],
+
+      // 目录2
+      '/guide/': [
+        {
+          text: 'GUIDE',
+          items: [
+            { text: 'MarkDown-学习', link: '/guide/markdown-examples' },
+            { text: 'Vitepress-架构', link: '/guide/Vitepress-index' },
+          ],
+        },
+      ],
+    },
 
     //社交链接,内置的都是国外的，国内的都需要通过svg自行复制。
     socialLinks: [
