@@ -22,7 +22,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: 'FRONT-END',
         items:[
-          { text: '前端三剑客', link: '/chunk_front_end_learning/Three_Front-End_Masters' },
+          { text: '前端三剑客', link: '/chunk_front_end/Three_Front-End_Masters' },
           { text: '', link: '/' },
           { text: '', link: '/' },
           { text: '', link: '/' },
@@ -33,10 +33,10 @@ export default defineConfig({
           { text: '', link: '/' },
         ]
       },
-
+      
       { text: 'COMPUTER SCIENCE',
         items:[
-          { text: '机器学习', link: 'docs/chunk_front_end_learning/Three_Front-End_Masters.md' },
+          { text: '机器学习', link: '/chunk_computer_science/机器学习' },
           { text: '', link: '/' },
           { text: '', link: '/' },
           { text: '', link: '/' },
@@ -87,7 +87,7 @@ export default defineConfig({
         //分组标题
         text: 'FRONT-END LEARNING',
         items: [
-          { text: '前端三剑客', link: '/chunk_front_end_learning/html_learning' },
+          { text: '前端三剑客', link: '/chunk_front_end/Three_Front-End_Masters' },
           { text: '', link: '/' },
           { text: '', link: '/' },
           { text: '', link: '/' },
