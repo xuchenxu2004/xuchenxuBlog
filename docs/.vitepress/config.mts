@@ -82,7 +82,7 @@ export default defineConfig({
 
     sidebar: {
       // 目录1
-      '/chunk_front_end_learning/': [
+      '/chunk_front_end/': [
         { 
         //分组标题
         text: 'FRONT-END LEARNING',
@@ -113,6 +113,15 @@ export default defineConfig({
             
             { text: '窄门', link: '/chunk_books/窄门' },
             { text: '局外人', link: '/chunk_books/局外人' },
+          ],
+        },
+      ],
+
+      '/chunk_computer_science/': [
+        {
+          text: 'COMPUTER SCIENCE',
+          items: [
+            { text: '机器学习', link: '/chunk_computer_science/机器学习' },
           ],
         },
       ],

@@ -18,6 +18,7 @@ hero: #整个屏幕的上半部分
 features:
   - title: 技能学习
     details: 主要是计算机相关的技能学习
+    link: "/chunk_computer_science/机器学习"
   - title: 读书笔记
     details: 好词好句摘录，或许会有感想
     link: "/chunk_books/窄门"
