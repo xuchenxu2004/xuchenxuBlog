@@ -145,7 +145,7 @@ ka href="https://www.baidu.com">这是一个超链接</a>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML区块</title>
 </head>
 
 <body>
@@ -237,7 +237,57 @@ p {u
     font-size: 16px;
 }
 ```
-
 ### 5.CSS导入方式
+CSS 三种导入方式
+下面是三种常见的 CSS 导入方式：
+1. `内联样式 （Inline Styles）`
+2. `内部样式表 （Internal Stylesheet）`
+3. `外部样式表 （External Stylesheet）`
+<br>
+
+三种导入方式的优先级：“`内联样式`＞`内部样式表`＞`外部样式表`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 导入方式</title>
+    <link rel="stylesheet" href="CSS/style.css"> <!--链接外部样式表-->
+    <style>
+        p {
+            color: blue;
+            font-size: 25px;
+
+        }
+
+        h2 {
+            color: green;
+
+        }
+    </style>
+</head>
+<body>
+    <p>这是一个应用了css样式的文本</p>
+    <h1 style="color: red ;">
+        这是一个一级标题标签,使用内联样式
+    </h1>
+    <h2>这是一个二级标题，使用内部样式</h2>
+    <h3>这是一个三级标题，使用外部样式</h3>
+</body>
+</html>
+```
+创建一个CSS文件夹，在其中布置外部样式。通过内部引用对对应部分应用外部样式
+```css
+h3 {
+    color: purple;
+}
+```
+### 6.CSS选择器
+
+
+
+
 
 ## JavaScript
