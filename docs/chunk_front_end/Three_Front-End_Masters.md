@@ -259,12 +259,10 @@ CSS 三种导入方式
         p {
             color: blue;
             font-size: 25px;
-
         }
 
         h2 {
             color: green;
-
         }
     </style>
 </head>
