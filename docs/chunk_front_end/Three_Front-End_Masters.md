@@ -1,11 +1,10 @@
 # 前端三剑客
 
 <Linkcard 
-url='<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=923186071&bvid=BV1BT4y1W7Aw&cid=1391465636&p=8" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>'
+url='https://www.bilibili.com/video/BV1BT4y1W7Aw/?p=8&share_source=copy_web&vd_source=d0caeb97a7ff1b5ffa5a2694d33664ae'
 title="学习来源" 
 description="Bilibili: 3小时前端入门教程（HTML+CSS+JS）" 
-logo="https://www.bilibili.com/?spm_id_from=333.1007.0.0"/
->
+logo=""/>
 
 ## HTML
 HTML通过一系列的`标签`(也称`元素`)、来定义文本、图像、链接等等。HTML标签是由尖括号包围的关键字。  
