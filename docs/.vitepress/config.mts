@@ -95,7 +95,6 @@ export default defineConfig({
         }
       ],
 
-      // 目录2
       '/chunk_guide/': [
         {
           text: 'GUIDE',
@@ -137,6 +136,13 @@ export default defineConfig({
     search: { 
       provider: 'local'
     }, 
+
+    outline: { 
+      level: [2,4], // 显示2-4级标题
+      // level: 'deep', // 显示2-6级标题
+      label: '当前页大纲' // 文字显示
+    },
+
     //上次更新时间
     lastUpdated: {
       text: '最后更新于',
@@ -157,8 +163,18 @@ export default defineConfig({
       // 自动更新时间
       //copyright: VitePress`Copyright © 2019-${new Date().getFullYear()} present Evan You`, 
     }, 
+  },
+  
+  //markdown配置
+  markdown: {
+    // 组件插入h1标题下
+    config: (md) => {
+      md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
+          let htmlResult = slf.renderToken(tokens, idx, options);
+          if (tokens[idx].tag === 'h1') htmlResult += `<ArticleMetadata />`; 
+          return htmlResult;
+      }
+    }
   }
-  
-  
 })
 
