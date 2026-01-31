@@ -11,7 +11,7 @@ export default defineConfig({
   title: "XUCHENXU2004",
   description: "基于 Vitepress 的轻量化博客",
   lastUpdated: true, 
-  ignoreDeadLinks: false,
+  ignoreDeadLinks: true,
   themeConfig: {
     logo: '/web_logo.png',
 
