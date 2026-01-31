@@ -229,13 +229,13 @@ allowfullscreen>
 </iframe>
 
 
-<iframe 
+<!-- <iframe 
 style="width:100%; aspect-ratio:16/9; margin-top: 2em;" 
 src="//player.bilibili.com/player.html?bvid=BV1YptMeMEcV" 
 frameborder="0" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
 allowfullscreen>
-</iframe>
+</iframe> -->
 
 
 ### 表格
@@ -374,7 +374,7 @@ export default defineConfig({
 
 输出：
 
-::: info
+::: info 信息
 这是一条info，自定义格式：info+空格+自定义文字
 :::
 
@@ -403,7 +403,7 @@ Hello, VitePress!
 
 > 为什么和我不一样？
 >
-> 我对样式进行了修改，请查看 [样式美化 - 容器颜色](./style.md#容器颜色)
+> 我对样式进行了修改，请查看 [样式美化 - 容器颜色](https://vitepress.yiov.top/style.html#%E5%AE%B9%E5%99%A8%E9%A2%9C%E8%89%B2)
 
 
 ::: details 不喜欢添加在后面，可以直接在配置中自定义标题

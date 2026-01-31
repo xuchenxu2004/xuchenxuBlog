@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
+import vitepressProtectPlugin from "vitepress-protect-plugin"
 
 // https://vitepress.dev/reference/site-config
 
@@ -22,7 +24,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: 'FRONT-END',
         items:[
-          { text: '前端三剑客', link: '/chunk_front_end/Three_Front-End_Masters' },
+          { text: '前端三剑客入门', link: '/chunk_front_end/Three_Front-End_Masters' },
           { text: '', link: '/' },
           { text: '', link: '/' },
           { text: '', link: '/' },
@@ -88,7 +90,7 @@ export default defineConfig({
         //分组标题
         text: 'FRONT-END LEARNING',
         items: [
-          { text: '前端三剑客', link: '/chunk_front_end/Three_Front-End_Masters' },
+          { text: '前端三剑客入门', link: '/chunk_front_end/Three_Front-End_Masters' },
           { text: '', link: '/' },
           { text: '', link: '/' },
           { text: '', link: '/' },
@@ -170,14 +172,29 @@ export default defineConfig({
   
   //markdown配置
   markdown: {
-    // 组件插入h1标题下
+    image: {
+      //开启图片懒加载
+      lazyLoading: true
+    },
+      // 组件插入h1标题下
     config: (md) => {
+      md.use(groupIconMdPlugin) //代码组图标
       md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
           let htmlResult = slf.renderToken(tokens, idx, options);
           if (tokens[idx].tag === 'h1') htmlResult += `<ArticleMetadata />`; 
           return htmlResult;
       }
     }
-  }
+  },
+  vite: { 
+    plugins: [
+      groupIconVitePlugin(), //代码组图标
+      vitepressProtectPlugin({
+        disableF12: true, // 禁用F12开发者模式
+        disableCopy: true, // 禁用文本复制
+        disableSelect: true, // 禁用文本选择
+      }),
+    ],
+  },
 })
 

@@ -6,6 +6,7 @@
     "canvas-confetti": "^1.9.4",
     "vitepress": "^1.6.4",
     "vitepress-plugin-group-icons": "^1.7.1",
+    "vitepress-protect-plugin": "^1.0.6",
     "vue": "^3.5.27"
   },
   "type": "module",

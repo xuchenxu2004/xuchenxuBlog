@@ -33,6 +33,9 @@ importers:
         specifier: ^3.0.23
         version: 3.0.23(core-js@3.48.0)
     devDependencies:
+      '@mdit-vue/plugin-frontmatter':
+        specifier: ^3.0.2
+        version: 3.0.2
       '@types/canvas-confetti':
         specifier: ^1.9.0
         version: 1.9.0
@@ -48,6 +51,9 @@ importers:
       vitepress-plugin-group-icons:
         specifier: ^1.7.1
         version: 1.7.1(vite@5.4.21(@types/node@25.1.0))
+      vitepress-protect-plugin:
+        specifier: ^1.0.6
+        version: 1.0.6(vite@5.4.21(@types/node@25.1.0))
       vue:
         specifier: ^3.5.27
         version: 3.5.27
@@ -339,6 +345,10 @@ packages:
 
   '@lit/reactive-element@2.1.2':
     resolution: {integrity: sha512-pbCDiVMnne1lYUIaYNN5wrwQXDtHaYtg7YEFPeW+hws6U47WeFvISGUWekPGKWOP1ygrs0ef0o1VJMk1exos5A==}
+
+  '@mdit-vue/plugin-frontmatter@3.0.2':
+    resolution: {integrity: sha512-QKKgIva31YtqHgSAz7S7hRcL7cHXiqdog4wxTfxeQCHo+9IP4Oi5/r1Y5E93nTPccpadDWzAwr3A0F+kAEnsVQ==}
+    engines: {node: '>=20.0.0'}
 
   '@mdit-vue/shared@3.0.2':
     resolution: {integrity: sha512-anFGls154h0iVzUt5O43EaqYvPwzfUxQ34QpNQsUQML7pbEJMhcgkRNvYw9hZBspab+/TP45agdPw5joh6/BBA==}
@@ -1109,6 +1119,11 @@ packages:
       vite:
         optional: true
 
+  vitepress-protect-plugin@1.0.6:
+    resolution: {integrity: sha512-4gO5NYNrAaD99+/5Qp/QPURTZC2MZ6UMl/gnxfBAIRasxw6r/mdjcluUNLxEFT8WUMX19KgGu4SSLFcKwfeBtQ==}
+    peerDependencies:
+      vite: ^2.0.0 || ^3.0.0 || ^4.0.0
+
   vitepress@1.6.4:
     resolution: {integrity: sha512-+2ym1/+0VVrbhNyRoFFesVvBvHAVMZMK0rw60E3X/5349M1GuVdKeazuksqopEdvkKwKGs21Q729jX81/bkBJg==}
     hasBin: true
@@ -1399,6 +1414,13 @@ snapshots:
   '@lit/reactive-element@2.1.2':
     dependencies:
       '@lit-labs/ssr-dom-shim': 1.5.1
+
+  '@mdit-vue/plugin-frontmatter@3.0.2':
+    dependencies:
+      '@mdit-vue/types': 3.0.2
+      '@types/markdown-it': 14.1.2
+      gray-matter: 4.0.3
+      markdown-it: 14.1.0
 
   '@mdit-vue/shared@3.0.2':
     dependencies:
@@ -2185,6 +2207,10 @@ snapshots:
       '@iconify-json/vscode-icons': 1.2.40
       '@iconify/utils': 3.1.0
     optionalDependencies:
+      vite: 5.4.21(@types/node@25.1.0)
+
+  vitepress-protect-plugin@1.0.6(vite@5.4.21(@types/node@25.1.0)):
+    dependencies:
       vite: 5.4.21(@types/node@25.1.0)
 
   vitepress@1.6.4(@algolia/client-search@5.47.0)(@types/node@25.1.0)(postcss@8.5.6)(search-insights@2.17.3):

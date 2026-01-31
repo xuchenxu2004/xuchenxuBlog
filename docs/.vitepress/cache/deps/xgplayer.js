@@ -4,9 +4,9 @@ import {
   __toESM
 } from "./chunk-DC5AMYBS.js";
 
-// node_modules/eventemitter3/index.js
+// node_modules/.pnpm/eventemitter3@4.0.7/node_modules/eventemitter3/index.js
 var require_eventemitter3 = __commonJS({
-  "node_modules/eventemitter3/index.js"(exports, module) {
+  "node_modules/.pnpm/eventemitter3@4.0.7/node_modules/eventemitter3/index.js"(exports, module) {
     "use strict";
     var has = Object.prototype.hasOwnProperty;
     var prefix = "~";
@@ -166,9 +166,9 @@ var require_eventemitter3 = __commonJS({
   }
 });
 
-// node_modules/delegate/src/closest.js
+// node_modules/.pnpm/delegate@3.2.0/node_modules/delegate/src/closest.js
 var require_closest = __commonJS({
-  "node_modules/delegate/src/closest.js"(exports, module) {
+  "node_modules/.pnpm/delegate@3.2.0/node_modules/delegate/src/closest.js"(exports, module) {
     var DOCUMENT_NODE_TYPE = 9;
     if (typeof Element !== "undefined" && !Element.prototype.matches) {
       proto = Element.prototype;
@@ -187,9 +187,9 @@ var require_closest = __commonJS({
   }
 });
 
-// node_modules/delegate/src/delegate.js
+// node_modules/.pnpm/delegate@3.2.0/node_modules/delegate/src/delegate.js
 var require_delegate = __commonJS({
-  "node_modules/delegate/src/delegate.js"(exports, module) {
+  "node_modules/.pnpm/delegate@3.2.0/node_modules/delegate/src/delegate.js"(exports, module) {
     var closest = require_closest();
     function _delegate2(element, selector, type, callback, useCapture) {
       var listenerFn = listener.apply(this, arguments);
@@ -226,9 +226,9 @@ var require_delegate = __commonJS({
   }
 });
 
-// node_modules/downloadjs/download.js
+// node_modules/.pnpm/downloadjs@1.4.7/node_modules/downloadjs/download.js
 var require_download = __commonJS({
-  "node_modules/downloadjs/download.js"(exports, module) {
+  "node_modules/.pnpm/downloadjs@1.4.7/node_modules/downloadjs/download.js"(exports, module) {
     (function(root, factory) {
       if (typeof define === "function" && define.amd) {
         define([], factory);
@@ -350,9 +350,9 @@ var require_download = __commonJS({
   }
 });
 
-// node_modules/danmu.js/dist/index.js
+// node_modules/.pnpm/danmu.js@1.2.1/node_modules/danmu.js/dist/index.js
 var require_dist = __commonJS({
-  "node_modules/danmu.js/dist/index.js"(exports, module) {
+  "node_modules/.pnpm/danmu.js@1.2.1/node_modules/danmu.js/dist/index.js"(exports, module) {
     !function(e, t) {
       if ("object" == typeof exports && "object" == typeof module) module.exports = t();
       else if ("function" == typeof define && define.amd) define([], t);
@@ -1705,7 +1705,7 @@ var require_dist = __commonJS({
   }
 });
 
-// node_modules/xgplayer/es/_virtual/_rollupPluginBabelHelpers.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/_virtual/_rollupPluginBabelHelpers.js
 function ownKeys(object, enumerableOnly) {
   var keys = Object.keys(object);
   if (Object.getOwnPropertySymbols) {
@@ -1922,10 +1922,10 @@ function _toPropertyKey(arg) {
   return typeof key === "symbol" ? key : String(key);
 }
 
-// node_modules/xgplayer/es/mediaProxy.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/mediaProxy.js
 var import_eventemitter3 = __toESM(require_eventemitter3());
 
-// node_modules/xgplayer/es/utils/debug.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/utils/debug.js
 var XG_DEBUG_OPEN = typeof window !== "undefined" && window.location && window.location.href.indexOf("xgplayerdebugger=1") > -1;
 var STYLE = {
   info: "color: #525252; background-color: #90ee90;",
@@ -1969,7 +1969,7 @@ function bindDebug(player) {
   player.logError = XG_DEBUG.logError.bind(player);
 }
 
-// node_modules/xgplayer/es/utils/xgplayerTimeRange.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/utils/xgplayerTimeRange.js
 var XgplayerTimeRange = function() {
   function XgplayerTimeRange2(bufferedList) {
     _classCallCheck(this, XgplayerTimeRange2);
@@ -1994,7 +1994,7 @@ var XgplayerTimeRange = function() {
   return XgplayerTimeRange2;
 }();
 
-// node_modules/xgplayer/es/utils/util.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/utils/util.js
 var util = {};
 util.createDom = function() {
   var el = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : "div";
@@ -2822,7 +2822,7 @@ function checkIsCurrentVideo(element, playerId, key) {
   return false;
 }
 
-// node_modules/xgplayer/es/utils/sniffer.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/utils/sniffer.js
 var VERSION_REG = {
   android: /(Android)\s([\d.]+)/,
   ios: /(Version)\/([\d.]+)/
@@ -2977,10 +2977,10 @@ var sniffer = {
   }
 };
 
-// node_modules/xgplayer/es/version.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/version.js
 var version = "3.0.23";
 
-// node_modules/xgplayer/es/error.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/error.js
 var ERROR_TYPE_MAP = {
   1: "media",
   2: "media",
@@ -3053,7 +3053,7 @@ var Errors = _createClass(
   }
 );
 
-// node_modules/xgplayer/es/events.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/events.js
 var events_exports = {};
 __export(events_exports, {
   ABORT: () => ABORT,
@@ -3182,7 +3182,7 @@ var STATS_EVENTS = {
 };
 var FPS_STUCK = "fps_stuck";
 
-// node_modules/xgplayer/es/mediaProxy.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/mediaProxy.js
 function emitVideoEvent(eventKey, e) {
   if (!this || !this.emit) {
     return;
@@ -3808,7 +3808,7 @@ var MediaProxy = function(_EventEmitter) {
   return MediaProxy2;
 }(import_eventemitter3.default);
 
-// node_modules/xgplayer/es/utils/database.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/utils/database.js
 var INDEXDB = function() {
   function INDEXDB2() {
     var mydb = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {
@@ -3915,13 +3915,13 @@ var INDEXDB = function() {
   return INDEXDB2;
 }();
 
-// node_modules/xgplayer/es/constant.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/constant.js
 var FULLSCREEN_EVENTS = ["fullscreenchange", "webkitfullscreenchange", "mozfullscreenchange", "MSFullscreenChange"];
 var GET_FULLSCREEN_API = ["requestFullscreen", "webkitRequestFullscreen", "mozRequestFullScreen", "msRequestFullscreen"];
 var EXIT_FULLSCREEN_API = ["exitFullscreen", "webkitExitFullscreen", "mozCancelFullScreen", "msExitFullscreen"];
 var PLATER_ID = "data-xgplayerid";
 
-// node_modules/xgplayer/es/plugin/hooksDescriptor.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugin/hooksDescriptor.js
 function callHandler(obj, handler, next) {
   for (var _len = arguments.length, args = new Array(_len > 3 ? _len - 3 : 0), _key = 3; _key < _len; _key++) {
     args[_key - 3] = arguments[_key];
@@ -4109,7 +4109,7 @@ function runHooks(obj, hookName, handler) {
   }
 }
 
-// node_modules/xgplayer/es/plugin/basePlugin.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugin/basePlugin.js
 function showErrorMsg(pluginName, msg) {
   XG_DEBUG.logError("[".concat(pluginName, "] event or callback cant be undefined or null when call ").concat(msg));
 }
@@ -4375,7 +4375,7 @@ var BasePlugin = function() {
   return BasePlugin2;
 }();
 
-// node_modules/xgplayer/es/plugin/plugin.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugin/plugin.js
 var import_delegate = __toESM(require_delegate());
 var ROOT_TYPES = {
   CONTROLS: "controls",
@@ -4932,7 +4932,7 @@ var Plugin = function(_BasePlugin) {
   return Plugin2;
 }(BasePlugin);
 
-// node_modules/xgplayer/es/plugin/resizeObserver.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugin/resizeObserver.js
 var ResizeObserver2 = function() {
   function ResizeObserver22() {
     var _this = this;
@@ -5040,7 +5040,7 @@ function unObserver(target, handler) {
   (_resizeObserver = resizeObserver) === null || _resizeObserver === void 0 ? void 0 : _resizeObserver.unObserver(target, handler);
 }
 
-// node_modules/xgplayer/es/plugin/pluginsManager.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugin/pluginsManager.js
 var pluginsManager = {
   pluginGroup: {},
   init: function init(player) {
@@ -5346,7 +5346,7 @@ var pluginsManager = {
   }
 };
 
-// node_modules/xgplayer/es/stateClassMap.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/stateClassMap.js
 var STATE_CLASS = {
   DEFAULT: "xgplayer",
   DEFAULT_SKIN: "xgplayer-skin-default",
@@ -5379,7 +5379,7 @@ var STATE_CLASS = {
   MINI: "xgplayer-mini"
 };
 
-// node_modules/xgplayer/es/defaultConfig.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/defaultConfig.js
 function getDefaultConfig() {
   return {
     id: "",
@@ -5464,7 +5464,7 @@ function getDefaultConfig() {
   };
 }
 
-// node_modules/xgplayer/es/plugin/preset.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugin/preset.js
 var usePreset = function usePreset2(player, Preset) {
   var _player$config$plugin, _player$config$ignore;
   var presetInst;
@@ -5492,7 +5492,7 @@ var usePreset = function usePreset2(player, Preset) {
   player.config.i18n = i18n;
 };
 
-// node_modules/xgplayer/es/plugins/controls/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/controls/index.js
 var Controls = function(_Plugin) {
   _inherits(Controls2, _Plugin);
   var _super = _createSuper(Controls2);
@@ -5679,7 +5679,7 @@ var Controls = function(_Plugin) {
   return Controls2;
 }(Plugin);
 
-// node_modules/xgplayer/es/lang/en.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/lang/en.js
 var EN = {
   LANG: "en",
   TEXT: {
@@ -5757,7 +5757,7 @@ var EN = {
   }
 };
 
-// node_modules/xgplayer/es/lang/i18n.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/lang/i18n.js
 var XGI18nLang = {
   lang: {},
   langKeys: [],
@@ -5877,7 +5877,7 @@ var I18N = {
   init: init2
 };
 
-// node_modules/xgplayer/es/state.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/state.js
 var STATES = {
   INITIAL: 1,
   READY: 2,
@@ -5890,7 +5890,7 @@ var STATES = {
 };
 var STATE_ARRAY = ["ERROR", "INITIAL", "READY", "ATTACHING", "ATTACHED", "NOTALLOW", "RUNNING", "ENDED", "DESTROYED"];
 
-// node_modules/xgplayer/es/instManager.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/instManager.js
 var import_eventemitter32 = __toESM(require_eventemitter3());
 var store = {};
 var instance = null;
@@ -6041,7 +6041,7 @@ function checkPlayerRoot(root) {
   return null;
 }
 
-// node_modules/xgplayer/es/player.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/player.js
 var PlAYER_HOOKS = ["play", "pause", "replay", "retry"];
 var REAL_TIME_SPEED = 0;
 var AVG_SPEED = 0;
@@ -8033,7 +8033,7 @@ _defineProperty(Player, "defaultPreset", null);
 _defineProperty(Player, "XgVideoProxy", null);
 Player.instManager = InstManager.getInstance();
 
-// node_modules/xgplayer/es/plugins/common/iconTools.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/common/iconTools.js
 function xgIconTips(plugin, textKey, isShow) {
   try {
     return ' <div class="xg-tips '.concat(isShow ? "hide" : " ", '" lang-key="').concat(plugin.i18nKeys[textKey], '">\n    ').concat(plugin.i18n[textKey], "\n    </div>");
@@ -8042,7 +8042,7 @@ function xgIconTips(plugin, textKey, isShow) {
   }
 }
 
-// node_modules/xgplayer/es/plugins/common/iconPlugin.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/common/iconPlugin.js
 var Icon = function(_Plugin) {
   _inherits(Icon2, _Plugin);
   var _super = _createSuper(Icon2);
@@ -8084,7 +8084,7 @@ var Icon = function(_Plugin) {
   return Icon2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/assets/requestCssFull.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/assets/requestCssFull.js
 function CssFullSceenSvg() {
   return new DOMParser().parseFromString(`<svg xmlns="http://www.w3.org/2000/svg" width="31" height="40" viewBox="0 -5 31 40">
   <path fill="#fff" transform="scale(1.3, 1.3)" class='path_full' d="M9,10v1a.9.9,0,0,1-1,1,.9.9,0,0,1-1-1V9A.9.9,0,0,1,8,8h2a.9.9,0,0,1,1,1,.9.9,0,0,1-1,1Zm6,4V13a1,1,0,0,1,2,0v2a.9.9,0,0,1-1,1H14a1,1,0,0,1,0-2Zm3-7H6V17H18Zm2,0V17a2,2,0,0,1-2,2H6a2,2,0,0,1-2-2V7A2,2,0,0,1,6,5H18A2,2,0,0,1,20,7Z"></path>
@@ -8092,12 +8092,12 @@ function CssFullSceenSvg() {
 `, "image/svg+xml").firstChild;
 }
 
-// node_modules/xgplayer/es/plugins/assets/exitCssFull.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/assets/exitCssFull.js
 function ExitCssFullSceenSvg() {
   return new DOMParser().parseFromString('<svg xmlns="http://www.w3.org/2000/svg" width="31" height="40" viewBox="0 -5 31 40">\n  <path fill="#fff" transform="scale(1.3, 1.3)" d="M9,10V9a.9.9,0,0,1,1-1,.9.9,0,0,1,1,1v2a.9.9,0,0,1-1,1H8a.9.9,0,0,1-1-1,.9.9,0,0,1,1-1Zm6,4v1a1,1,0,0,1-2,0V13a.9.9,0,0,1,1-1h2a1,1,0,0,1,0,2Zm3-7H6V17H18Zm2,0V17a2,2,0,0,1-2,2H6a2,2,0,0,1-2-2V7A2,2,0,0,1,6,5H18A2,2,0,0,1,20,7Z"></path>\n</svg>\n', "image/svg+xml").firstChild;
 }
 
-// node_modules/xgplayer/es/plugins/cssFullScreen/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/cssFullScreen/index.js
 var CssFullScreen = function(_IconPlugin) {
   _inherits(CssFullScreen2, _IconPlugin);
   var _super = _createSuper(CssFullScreen2);
@@ -8225,12 +8225,12 @@ var CssFullScreen = function(_IconPlugin) {
   return CssFullScreen2;
 }(Icon);
 
-// node_modules/xgplayer/es/plugins/assets/back.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/assets/back.js
 function BackSVG() {
   return new DOMParser().parseFromString('<svg width="32px" height="40px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">\n    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n        <path d="M11.2374369,14 L17.6187184,7.61871843 C17.9604272,7.27700968 17.9604272,6.72299032 17.6187184,6.38128157 C17.2770097,6.03957281 16.7229903,6.03957281 16.3812816,6.38128157 L9.38128157,13.3812816 C9.03957281,13.7229903 9.03957281,14.2770097 9.38128157,14.6187184 L16.3812816,21.6187184 C16.7229903,21.9604272 17.2770097,21.9604272 17.6187184,21.6187184 C17.9604272,21.2770097 17.9604272,20.7229903 17.6187184,20.3812816 L11.2374369,14 L11.2374369,14 Z" fill="#FFFFFF"></path>\n    </g>\n</svg>', "image/svg+xml").firstChild;
 }
 
-// node_modules/xgplayer/es/plugins/fullscreen/backicon.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/fullscreen/backicon.js
 var TopBackIcon = function(_Plugin) {
   _inherits(TopBackIcon2, _Plugin);
   var _super = _createSuper(TopBackIcon2);
@@ -8298,17 +8298,17 @@ var TopBackIcon = function(_Plugin) {
   return TopBackIcon2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/assets/requestFull.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/assets/requestFull.js
 function FullScreenSvg() {
   return new DOMParser().parseFromString('<svg xmlns="http://www.w3.org/2000/svg" width="28" height="40" viewBox="2 -4 28 40">\n  <path fill="#fff" transform="scale(0.0320625 0.0320625)" d="M598 214h212v212h-84v-128h-128v-84zM726 726v-128h84v212h-212v-84h128zM214 426v-212h212v84h-128v128h-84zM298 598v128h128v84h-212v-212h84z"></path>\n</svg>\n', "image/svg+xml").firstChild;
 }
 
-// node_modules/xgplayer/es/plugins/assets/exitFull.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/assets/exitFull.js
 function ExitFullScreenSvg() {
   return new DOMParser().parseFromString('<svg xmlns="http://www.w3.org/2000/svg" width="28" height="40" viewBox="2 -4 28 40">\n  <path fill="#fff" transform="scale(0.0320625 0.0320625)" d="M682 342h128v84h-212v-212h84v128zM598 810v-212h212v84h-128v128h-84zM342 342v-128h84v212h-212v-84h128zM214 682v-84h212v212h-84v-128h-128z"></path>\n</svg>\n', "image/svg+xml").firstChild;
 }
 
-// node_modules/xgplayer/es/plugins/fullscreen/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/fullscreen/index.js
 var Fullscreen = function(_IconPlugin) {
   _inherits(Fullscreen2, _IconPlugin);
   var _super = _createSuper(Fullscreen2);
@@ -8516,17 +8516,17 @@ var Fullscreen = function(_IconPlugin) {
   return Fullscreen2;
 }(Icon);
 
-// node_modules/xgplayer/es/plugins/assets/play.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/assets/play.js
 function PlayIcon() {
   return new DOMParser().parseFromString('<svg class="play" xmlns="http://www.w3.org/2000/svg" width="28" height="40" viewBox="3 -4 28 40">\n  <path fill="#fff" transform="scale(0.0320625 0.0320625)" d="M576,363L810,512L576,661zM342,214L576,363L576,661L342,810z"></path>\n</svg>\n', "image/svg+xml").firstChild;
 }
 
-// node_modules/xgplayer/es/plugins/assets/pause.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/assets/pause.js
 function PauseIcon() {
   return new DOMParser().parseFromString('<svg class="pause" xmlns="http://www.w3.org/2000/svg" width="28" height="40" viewBox="3 -4 28 40">\n  <path fill="#fff" transform="scale(0.0320625 0.0320625)" d="M598,214h170v596h-170v-596zM256 810v-596h170v596h-170z"></path>\n</svg>\n', "image/svg+xml").firstChild;
 }
 
-// node_modules/xgplayer/es/plugins/play/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/play/index.js
 var Play = function(_IconPlugin) {
   _inherits(Play2, _IconPlugin);
   var _super = _createSuper(Play2);
@@ -8650,7 +8650,7 @@ var Play = function(_IconPlugin) {
   return Play2;
 }(Icon);
 
-// node_modules/xgplayer/es/plugins/progress/innerList.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/progress/innerList.js
 var import_delegate2 = __toESM(require_delegate());
 var TPL = [{
   tag: "xg-cache",
@@ -8933,7 +8933,7 @@ var InnerList = function() {
   return InnerList2;
 }();
 
-// node_modules/xgplayer/es/plugins/progress/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/progress/index.js
 var FRAGMENT_FOCUS_CLASS = {
   POINT: "inner-focus-point",
   HIGHLIGHT: "inner-focus-highlight"
@@ -9612,7 +9612,7 @@ var Progress = function(_Plugin) {
   return Progress2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/time/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/time/index.js
 var Time = function(_Plugin) {
   _inherits(Time2, _Plugin);
   var _super = _createSuper(Time2);
@@ -9842,22 +9842,22 @@ var Time = function(_Plugin) {
   return Time2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/assets/volumeLarge.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/assets/volumeLarge.js
 function volumeLargeSvg() {
   return new DOMParser().parseFromString('<svg xmlns="http://www.w3.org/2000/svg" width="28" height="40" viewBox="0 -10 28 40">\n  <path fill="#fff" transform="scale(0.0220625 0.0220625)" d="M358.4 358.4h-204.8v307.2h204.8l256 256v-819.2l-256 256z"></path>\n  <path fill="#fff" transform="scale(0.0220625 0.0220625)" d="M940.632 837.632l-72.192-72.192c65.114-64.745 105.412-154.386 105.412-253.44s-40.299-188.695-105.396-253.424l-0.016-0.016 72.192-72.192c83.639 83.197 135.401 198.37 135.401 325.632s-51.762 242.434-135.381 325.612l-0.020 0.020zM795.648 693.248l-72.704-72.704c27.756-27.789 44.921-66.162 44.921-108.544s-17.165-80.755-44.922-108.546l0.002 0.002 72.704-72.704c46.713 46.235 75.639 110.363 75.639 181.248s-28.926 135.013-75.617 181.227l-0.021 0.021z"></path>\n</svg>\n', "image/svg+xml").firstChild;
 }
 
-// node_modules/xgplayer/es/plugins/assets/volumeSmall.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/assets/volumeSmall.js
 function volumeSmallSvg() {
   return new DOMParser().parseFromString('<svg xmlns="http://www.w3.org/2000/svg" width="28" height="40" viewBox="0 -10 28 40">\n  <path fill="#fff" transform="scale(0.0220625 0.0220625)" d="M358.4 358.4h-204.8v307.2h204.8l256 256v-819.2l-256 256z"></path>\n  <path fill="#fff" transform="scale(0.0220625 0.0220625)" d="M795.648 693.248l-72.704-72.704c27.756-27.789 44.921-66.162 44.921-108.544s-17.165-80.755-44.922-108.546l0.002 0.002 72.704-72.704c46.713 46.235 75.639 110.363 75.639 181.248s-28.926 135.013-75.617 181.227l-0.021 0.021zM795.648 693.248l-72.704-72.704c27.756-27.789 44.921-66.162 44.921-108.544s-17.165-80.755-44.922-108.546l0.002 0.002 72.704-72.704c46.713 46.235 75.639 110.363 75.639 181.248s-28.926 135.013-75.617 181.227l-0.021 0.021z"></path>\n</svg>\n', "image/svg+xml").firstChild;
 }
 
-// node_modules/xgplayer/es/plugins/assets/volumeMuted.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/assets/volumeMuted.js
 function volumeMutedSvg() {
   return new DOMParser().parseFromString('<svg xmlns="http://www.w3.org/2000/svg" width="28" height="40" viewBox="0 -10 28 40">\n  <path fill="#fff" transform="scale(0.0220625 0.0220625)" d="M358.4 358.4h-204.8v307.2h204.8l256 256v-819.2l-256 256z"></path>\n  <path fill="#fff" transform="scale(0.0220625 0.0220625)" d="M920.4 439.808l-108.544-109.056-72.704 72.704 109.568 108.544-109.056 108.544 72.704 72.704 108.032-109.568 108.544 109.056 72.704-72.704-109.568-108.032 109.056-108.544-72.704-72.704-108.032 109.568z"></path>\n</svg>\n', "image/svg+xml").firstChild;
 }
 
-// node_modules/xgplayer/es/plugins/volume/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/volume/index.js
 var Volume = function(_Plugin) {
   _inherits(Volume2, _Plugin);
   var _super = _createSuper(Volume2);
@@ -10168,7 +10168,7 @@ var Volume = function(_Plugin) {
   return Volume2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/logger/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/logger/index.js
 function now() {
   return (/* @__PURE__ */ new Date()).getTime();
 }
@@ -10475,12 +10475,12 @@ var XGLogger = function(_BasePlugin) {
   return XGLogger2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/assets/replay.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/assets/replay.js
 function ReplaySvg() {
   return new DOMParser().parseFromString('<svg class="xgplayer-replay-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78 78" width="78" height="78">\n  <path fill="#fff" transform="translate(20, 20)" d="M8.22708362,13.8757234 L11.2677371,12.6472196 C11.7798067,12.4403301 12.3626381,12.6877273 12.5695276,13.1997969 L12.9441342,14.1269807 C13.1510237,14.6390502 12.9036264,15.2218816 12.3915569,15.4287712 L6.8284538,17.6764107 L5.90126995,18.0510173 C5.38920044,18.2579068 4.80636901,18.0105096 4.5994795,17.49844 L1.97723335,11.0081531 C1.77034384,10.4960836 2.0177411,9.91325213 2.52981061,9.70636262 L3.45699446,9.33175602 C3.96906396,9.12486652 4.5518954,9.37226378 4.75878491,9.88433329 L5.67885163,12.1615783 C7.99551726,6.6766934 13.3983951,3 19.5,3 C27.7842712,3 34.5,9.71572875 34.5,18 C34.5,26.2842712 27.7842712,33 19.5,33 C15.4573596,33 11.6658607,31.3912946 8.87004692,28.5831991 C8.28554571,27.9961303 8.28762719,27.0463851 8.87469603,26.4618839 C9.46176488,25.8773827 10.4115101,25.8794641 10.9960113,26.466533 C13.2344327,28.7147875 16.263503,30 19.5,30 C26.127417,30 31.5,24.627417 31.5,18 C31.5,11.372583 26.127417,6 19.5,6 C14.4183772,6 9.94214483,9.18783811 8.22708362,13.8757234 Z"></path>\n</svg>\n', "image/svg+xml").firstChild;
 }
 
-// node_modules/xgplayer/es/plugins/replay/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/replay/index.js
 var Replay = function(_Plugin) {
   _inherits(Replay2, _Plugin);
   var _super = _createSuper(Replay2);
@@ -10584,7 +10584,7 @@ var Replay = function(_Plugin) {
   return Replay2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/poster/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/poster/index.js
 var Poster = function(_Plugin) {
   _inherits(Poster2, _Plugin);
   var _super = _createSuper(Poster2);
@@ -10722,7 +10722,7 @@ var Poster = function(_Plugin) {
   return Poster2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/start/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/start/index.js
 var AnimateMap = {};
 function addAnimate(key, seconds) {
   var callback = arguments.length > 2 && arguments[2] !== void 0 ? arguments[2] : {
@@ -10999,7 +10999,7 @@ var Start = function(_Plugin) {
   return Start2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/enter/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/enter/index.js
 var Enter = function(_Plugin) {
   _inherits(Enter2, _Plugin);
   var _super = _createSuper(Enter2);
@@ -11042,7 +11042,7 @@ var Enter = function(_Plugin) {
   return Enter2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/miniScreen/miniScreenIcon.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/miniScreen/miniScreenIcon.js
 var MiniScreenIcon = function(_Plugin) {
   _inherits(MiniScreenIcon2, _Plugin);
   var _super = _createSuper(MiniScreenIcon2);
@@ -11095,7 +11095,7 @@ var MiniScreenIcon = function(_Plugin) {
   return MiniScreenIcon2;
 }(Plugin);
 
-// node_modules/xgplayer/es/utils/draggabilly.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/utils/draggabilly.js
 var import_eventemitter33 = __toESM(require_eventemitter3());
 function getStyleSize(value) {
   var num = parseFloat(value);
@@ -11505,7 +11505,7 @@ var Draggabilly = function(_EventEmitter) {
   return Draggabilly2;
 }(import_eventemitter33.default);
 
-// node_modules/xgplayer/es/plugins/miniScreen/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/miniScreen/index.js
 var MiniScreen = function(_Plugin) {
   _inherits(MiniScreen2, _Plugin);
   var _super = _createSuper(MiniScreen2);
@@ -11718,7 +11718,7 @@ var MiniScreen = function(_Plugin) {
   return MiniScreen2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/pc/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/pc/index.js
 var import_delegate3 = __toESM(require_delegate());
 var MOUSE_EVENTS = {
   mouseenter: "onMouseEnter",
@@ -11917,7 +11917,7 @@ var PCPlugin = function(_BasePlugin) {
   return PCPlugin2;
 }(BasePlugin);
 
-// node_modules/xgplayer/es/plugins/mobile/touch.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/mobile/touch.js
 var EVENTS2 = {
   PRESS: "press",
   PRESS_END: "pressend",
@@ -12131,12 +12131,12 @@ var Touche = function() {
   return Touche2;
 }();
 
-// node_modules/xgplayer/es/plugins/assets/seekicon.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/assets/seekicon.js
 function SeekTipIcon() {
   return new DOMParser().parseFromString('<svg width="20" height="9" viewBox="0 0 8 9" fill="none" xmlns="http://www.w3.org/2000/svg"\n  xmlns:xlink="http://www.w3.org/1999/xlink">\n  <path opacity="0.54"\n    d="M7.5 3.63397C8.16667 4.01887 8.16667 4.98113 7.5 5.36603L1.5 8.83013C0.833334 9.21503 0 8.7339 0 7.9641L0 1.0359C0 0.266098 0.833333 -0.215027 1.5 0.169873L7.5 3.63397Z"\n    fill="white" />\n  <path transform="translate(5 0)" d="M7.5 3.63397C8.16667 4.01887 8.16667 4.98113 7.5 5.36603L1.5 8.83013C0.833334 9.21503 0 8.7339 0 7.9641L0 1.0359C0 0.266098 0.833333 -0.215027 1.5 0.169873L7.5 3.63397Z" fill="white"/>\n</svg>', "image/svg+xml").firstChild;
 }
 
-// node_modules/xgplayer/es/plugins/mobile/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/mobile/index.js
 var ACTIONS = {
   AUTO: "auto",
   SEEKING: "seeking",
@@ -12784,7 +12784,7 @@ var MobilePlugin = function(_Plugin) {
   return MobilePlugin2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/keyboard/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/keyboard/index.js
 var import_delegate4 = __toESM(require_delegate());
 function preventDefault(e) {
   e.preventDefault();
@@ -13208,12 +13208,12 @@ var Keyboard = function(_BasePlugin) {
   return Keyboard2;
 }(BasePlugin);
 
-// node_modules/xgplayer/es/plugins/assets/loading.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/assets/loading.js
 function loadingIcon() {
   return new DOMParser().parseFromString('<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="-5 -5 110 110">\n  <path d="M100,50A50,50,0,1,1,50,0" stroke-width="5" stroke="#ddd" stroke-dasharray="236" fill="none"></path>\n</svg>\n', "image/svg+xml").firstChild;
 }
 
-// node_modules/xgplayer/es/plugins/loading/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/loading/index.js
 var Loading = function(_Plugin) {
   _inherits(Loading2, _Plugin);
   var _super = _createSuper(Loading2);
@@ -13254,7 +13254,7 @@ var Loading = function(_Plugin) {
   return Loading2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/time/timesegments.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/time/timesegments.js
 var import_delegate5 = __toESM(require_delegate());
 var TimeSegmentsControls = function(_BasePlugin) {
   _inherits(TimeSegmentsControls2, _BasePlugin);
@@ -13467,12 +13467,12 @@ var TimeSegmentsControls = function(_BasePlugin) {
   return TimeSegmentsControls2;
 }(BasePlugin);
 
-// node_modules/xgplayer/es/plugins/assets/rotate.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/assets/rotate.js
 function RotateSvg() {
   return new DOMParser().parseFromString('<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="-4 -6 40 40" fill="none">\n  <g>\n    <path transform="scale(1.5 1.5)" d="M11.6665 9.16663H4.1665C2.78579 9.16663 1.6665 10.2859 1.6665 11.6666V15.8333C1.6665 17.214 2.78579 18.3333 4.1665 18.3333H11.6665C13.0472 18.3333 14.1665 17.214 14.1665 15.8333V11.6666C14.1665 10.2859 13.0472 9.16663 11.6665 9.16663Z" fill="white"/>\n    <path transform="scale(1.5 1.5)" fill-rule="evenodd" clip-rule="evenodd" d="M3.88148 4.06298C3.75371 4.21005 3.67667 4.40231 3.67749 4.61242C3.67847 4.87253 3.79852 5.10435 3.98581 5.25646L6.99111 8.05895C7.32771 8.37283 7.85502 8.35443 8.16891 8.01782C8.48279 7.68122 8.46437 7.15391 8.12778 6.84003L6.62061 5.43457L9.8198 5.4224C9.82848 5.42239 9.8372 5.42221 9.84591 5.4219C10.9714 5.38233 12.0885 5.6285 13.0931 6.13744C14.0976 6.64635 14.957 7.40148 15.5908 8.33234C16.2246 9.2632 16.6122 10.3394 16.7177 11.4606C16.823 12.5819 16.6427 13.7115 16.1934 14.7442C16.0098 15.1661 16.203 15.6571 16.6251 15.8408C17.0471 16.0243 17.5381 15.8311 17.7216 15.4091C18.2833 14.1183 18.5087 12.7063 18.3771 11.3047C18.2453 9.90318 17.7607 8.55792 16.9684 7.39433C16.1761 6.23073 15.1021 5.28683 13.8463 4.65065C12.5946 4.01651 11.203 3.70872 9.80072 3.75583L6.43415 3.76862L7.96326 2.12885C8.27715 1.79225 8.25872 1.26494 7.92213 0.951061C7.58553 0.63718 7.05822 0.655585 6.74433 0.99219L3.90268 4.0395C3.89545 4.04724 3.88841 4.05509 3.88154 4.06303L3.88148 4.06298Z" fill="white"/>\n  </g>\n  <defs>\n    <clipPath>\n      <rect width="40" height="40" fill="white"/>\n    </clipPath>\n  </defs>\n</svg>\n', "image/svg+xml").firstChild;
 }
 
-// node_modules/xgplayer/es/plugins/rotate/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/rotate/index.js
 var Rotate = function(_IconPlugin) {
   _inherits(Rotate2, _IconPlugin);
   var _super = _createSuper(Rotate2);
@@ -13613,17 +13613,17 @@ var Rotate = function(_IconPlugin) {
   return Rotate2;
 }(Icon);
 
-// node_modules/xgplayer/es/plugins/assets/pipIcon.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/assets/pipIcon.js
 function PipIcon() {
   return new DOMParser().parseFromString('<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">\n  <path fill-rule="evenodd" clip-rule="evenodd"\n    d="M16.5 4.3H3.5C3.38954 4.3 3.3 4.38954 3.3 4.5V15.5C3.3 15.6105 3.38954 15.7 3.5 15.7H8.50005L8.50006 17.5H3.5C2.39543 17.5 1.5 16.6046 1.5 15.5V4.5C1.5 3.39543 2.39543 2.5 3.5 2.5H16.5C17.6046 2.5 18.5 3.39543 18.5 4.5V8.5H16.7V4.5C16.7 4.38954 16.6105 4.3 16.5 4.3ZM12 11.5C11.4477 11.5 11 11.9477 11 12.5L11 16.5C11 17.0523 11.4478 17.5 12 17.5H17.5C18.0523 17.5 18.5 17.0523 18.5 16.5L18.5 12.5C18.5 11.9477 18.0523 11.5 17.5 11.5H12Z"\n    fill="white" />\n</svg>', "image/svg+xml").firstChild;
 }
 
-// node_modules/xgplayer/es/plugins/assets/pipIconExit.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/assets/pipIconExit.js
 function PipIconExit() {
   return new DOMParser().parseFromString('<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">\n  <path fill-rule="evenodd" clip-rule="evenodd"\n    d="M16.5 4.3H3.5C3.38954 4.3 3.3 4.38954 3.3 4.5V15.5C3.3 15.6105 3.38954 15.7 3.5 15.7H8.50005L8.50006 17.5H3.5C2.39543 17.5 1.5 16.6046 1.5 15.5V4.5C1.5 3.39543 2.39543 2.5 3.5 2.5H16.5C17.6046 2.5 18.5 3.39543 18.5 4.5V8.5H16.7V4.5C16.7 4.38954 16.6105 4.3 16.5 4.3ZM12 11.5C11.4477 11.5 11 11.9477 11 12.5L11 16.5C11 17.0523 11.4478 17.5 12 17.5H17.5C18.0523 17.5 18.5 17.0523 18.5 16.5L18.5 12.5C18.5 11.9477 18.0523 11.5 17.5 11.5H12Z"\n    fill="white" />\n  <path fill-rule="evenodd" clip-rule="evenodd"\n    d="M9.4998 7.7C9.77595 7.7 9.9998 7.47614 9.9998 7.2V6.5C9.9998 6.22386 9.77595 6 9.4998 6H5.5402L5.52754 6.00016H5.5C5.22386 6.00016 5 6.22401 5 6.50016V10.4598C5 10.7359 5.22386 10.9598 5.5 10.9598H6.2C6.47614 10.9598 6.7 10.7359 6.7 10.4598V8.83005L8.76983 10.9386C8.96327 11.1357 9.27984 11.1386 9.47691 10.9451L9.97645 10.4548C10.1735 10.2613 10.1764 9.94476 9.983 9.7477L7.97289 7.7H9.4998Z"\n    fill="white" />\n</svg>', "image/svg+xml").firstChild;
 }
 
-// node_modules/xgplayer/es/plugins/pip/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/pip/index.js
 var PresentationMode = {
   PIP: "picture-in-picture",
   INLINE: "inline",
@@ -13936,12 +13936,12 @@ var PIP = function(_IconPlugin) {
   return PIP2;
 }(Icon);
 
-// node_modules/xgplayer/es/plugins/assets/playNext.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/assets/playNext.js
 function Next() {
   return new DOMParser().parseFromString('<svg xmlns="http://www.w3.org/2000/svg" width="24" height="40" viewBox="10 0 24 40">\n  <path transform="scale(0.038 0.028)" d="M800 380v768h-128v-352l-320 320v-704l320 320v-352z"></path>\n</svg>\n', "image/svg+xml").firstChild;
 }
 
-// node_modules/xgplayer/es/plugins/playNext/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/playNext/index.js
 var PlayNextIcon = function(_Plugin) {
   _inherits(PlayNextIcon2, _Plugin);
   var _super = _createSuper(PlayNextIcon2);
@@ -14038,15 +14038,15 @@ var PlayNextIcon = function(_Plugin) {
   return PlayNextIcon2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/download/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/download/index.js
 var import_downloadjs = __toESM(require_download());
 
-// node_modules/xgplayer/es/plugins/assets/download.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/assets/download.js
 function DownloadSvg() {
   return new DOMParser().parseFromString('<svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">\n  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n    <g transform="translate(-488.000000, -340.000000)" fill="#FFFFFF">\n      <g id="Group-2">\n        <g id="volme_big-copy" transform="translate(488.000000, 340.000000)">\n          <rect id="Rectangle-18" x="11" y="4" width="2" height="12" rx="1"></rect>\n          <rect id="Rectangle-2" x="3" y="18" width="18" height="2" rx="1"></rect>\n          <rect id="Rectangle-2" transform="translate(4.000000, 17.500000) rotate(90.000000) translate(-4.000000, -17.500000) " x="1.5" y="16.5" width="5" height="2" rx="1"></rect><rect id="Rectangle-2-Copy-3" transform="translate(20.000000, 17.500000) rotate(90.000000) translate(-20.000000, -17.500000) " x="17.5" y="16.5" width="5" height="2" rx="1"></rect>\n          <path d="M9.48791171,8.26502656 L9.48791171,14.2650266 C9.48791171,14.8173113 9.04019646,15.2650266 8.48791171,15.2650266 C7.93562696,15.2650266 7.48791171,14.8173113 7.48791171,14.2650266 L7.48791171,7.26502656 C7.48791171,6.71274181 7.93562696,6.26502656 8.48791171,6.26502656 L15.4879117,6.26502656 C16.0401965,6.26502656 16.4879117,6.71274181 16.4879117,7.26502656 C16.4879117,7.81731131 16.0401965,8.26502656 15.4879117,8.26502656 L9.48791171,8.26502656 Z" id="Combined-Shape" transform="translate(11.987912, 10.765027) scale(1, -1) rotate(45.000000) translate(-11.987912, -10.765027) "></path>\n        </g>\n      </g>\n    </g>\n  </g>\n</svg>\n', "image/svg+xml").firstChild;
 }
 
-// node_modules/xgplayer/es/plugins/download/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/download/index.js
 var Download = function(_IconPlugin) {
   _inherits(Download2, _IconPlugin);
   var _super = _createSuper(Download2);
@@ -14146,7 +14146,7 @@ var Download = function(_IconPlugin) {
   return Download2;
 }(Icon);
 
-// node_modules/xgplayer/es/plugins/screenShot/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/screenShot/index.js
 var ScreenShot = function(_IconPlugin) {
   _inherits(ScreenShot2, _IconPlugin);
   var _super = _createSuper(ScreenShot2);
@@ -14338,7 +14338,7 @@ var ScreenShot = function(_IconPlugin) {
   return ScreenShot2;
 }(Icon);
 
-// node_modules/xgplayer/es/plugins/common/optionList.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/common/optionList.js
 var OptionList = function() {
   function OptionList2(args) {
     _classCallCheck(this, OptionList2);
@@ -14454,7 +14454,7 @@ var OptionList = function() {
   return OptionList2;
 }();
 
-// node_modules/xgplayer/es/plugins/common/optionsIcon.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/common/optionsIcon.js
 var LIST_TYPES = {
   SIDE: "side",
   MIDDLE: "middle",
@@ -14759,7 +14759,7 @@ var OptionsIcon = function(_Plugin) {
   return OptionsIcon2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/definition/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/definition/index.js
 var DefinitionIcon = function(_OptionsIcon) {
   _inherits(DefinitionIcon2, _OptionsIcon);
   var _super = _createSuper(DefinitionIcon2);
@@ -14918,7 +14918,7 @@ var DefinitionIcon = function(_OptionsIcon) {
   return DefinitionIcon2;
 }(OptionsIcon);
 
-// node_modules/xgplayer/es/plugins/playbackRate/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/playbackRate/index.js
 var PlaybackRate = function(_OptionsIcon) {
   _inherits(PlaybackRate2, _OptionsIcon);
   var _super = _createSuper(PlaybackRate2);
@@ -15053,7 +15053,7 @@ var PlaybackRate = function(_OptionsIcon) {
   return PlaybackRate2;
 }(OptionsIcon);
 
-// node_modules/xgplayer/es/plugins/error/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/error/index.js
 var ErrorPlugin = function(_Plugin) {
   _inherits(ErrorPlugin2, _Plugin);
   var _super = _createSuper(ErrorPlugin2);
@@ -15124,7 +15124,7 @@ var ErrorPlugin = function(_Plugin) {
   return ErrorPlugin2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/prompt/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/prompt/index.js
 var Prompt = function(_Plugin) {
   _inherits(Prompt2, _Plugin);
   var _super = _createSuper(Prompt2);
@@ -15230,7 +15230,7 @@ var Prompt = function(_Plugin) {
   return Prompt2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/progressPreview/dotsApi.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/progressPreview/dotsApi.js
 var import_delegate6 = __toESM(require_delegate());
 var ISPOT = {
   time: 0,
@@ -15497,7 +15497,7 @@ function initDotsAPI(plugin) {
   });
 }
 
-// node_modules/xgplayer/es/plugins/progressPreview/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/progressPreview/index.js
 var CALLBACK_MAP = {
   dragmove: "onProgressMove",
   dragstart: "onProgressDragStart",
@@ -15969,7 +15969,7 @@ var ProgressPreview = function(_Plugin) {
   return ProgressPreview2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/common/thumbnail.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/common/thumbnail.js
 var Thumbnail = function(_BasePlugin) {
   _inherits(Thumbnail2, _BasePlugin);
   var _super = _createSuper(Thumbnail2);
@@ -16156,7 +16156,7 @@ var Thumbnail = function(_BasePlugin) {
   return Thumbnail2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/progress/miniProgress.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/progress/miniProgress.js
 function getBgColor(color) {
   return color ? "background:".concat(color, ";") : "";
 }
@@ -16264,7 +16264,7 @@ var MiniProgress = function(_Plugin) {
   return MiniProgress2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/dynamicBg/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/dynamicBg/index.js
 var MODES = {
   REAL_TIME: "realtime",
   FIRST_FRAME: "firstframe",
@@ -16631,7 +16631,7 @@ var DynamicBg = function(_Plugin) {
   return DynamicBg2;
 }(Plugin);
 
-// node_modules/xgplayer/es/lang/zh-cn.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/lang/zh-cn.js
 var ZH = {
   LANG: "zh-cn",
   TEXT: {
@@ -16709,7 +16709,7 @@ var ZH = {
   }
 };
 
-// node_modules/xgplayer/es/plugins/stats/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/stats/index.js
 var import_delegate7 = __toESM(require_delegate());
 var INFO = "info";
 var STATS_EVENTS2 = STATS_EVENTS;
@@ -16900,7 +16900,7 @@ var Stats = function(_BasePlugin) {
   return Stats2;
 }(BasePlugin);
 
-// node_modules/xgplayer/es/plugins/gapJump/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/gapJump/index.js
 var GapJump = function(_BasePlugin) {
   _inherits(GapJump2, _BasePlugin);
   var _super = _createSuper(GapJump2);
@@ -17038,7 +17038,7 @@ var GapJump = function(_BasePlugin) {
 }(Plugin);
 GapJump.BROWSER_GAP_TOLERANCE = 1e-3;
 
-// node_modules/xgplayer/es/plugins/waitingTimeoutJump/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/waitingTimeoutJump/index.js
 var WaitingTimeoutJump = function(_BasePlugin) {
   _inherits(WaitingTimeoutJump2, _BasePlugin);
   var _super = _createSuper(WaitingTimeoutJump2);
@@ -17121,7 +17121,7 @@ var WaitingTimeoutJump = function(_BasePlugin) {
   return WaitingTimeoutJump2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/testspeed/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/testspeed/index.js
 var DEFAULT_SPEED_TYPE = "cdn";
 var SPEED_TYPE = ["cdn"];
 var TestSpeed = function(_BasePlugin) {
@@ -17324,7 +17324,7 @@ var TestSpeed = function(_BasePlugin) {
   return TestSpeed2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/fpsDetect/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/fpsDetect/index.js
 var FpsDetect = function(_BasePlugin) {
   _inherits(FpsDetect2, _BasePlugin);
   var _super = _createSuper(FpsDetect2);
@@ -17479,7 +17479,7 @@ var FpsDetect = function(_BasePlugin) {
   return FpsDetect2;
 }(Plugin);
 
-// node_modules/xgplayer/es/presets/default.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/presets/default.js
 I18N.use(ZH);
 var DefaultPreset = _createClass(function DefaultPreset2(options, playerConfig) {
   var _this$plugins, _this$plugins2, _this$plugins3;
@@ -17511,7 +17511,7 @@ var DefaultPreset = _createClass(function DefaultPreset2(options, playerConfig) 
   this.i18n = [];
 });
 
-// node_modules/xgplayer/es/index.umd.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/index.umd.js
 var PresetPlayer = function(_Player) {
   _inherits(PresetPlayer2, _Player);
   var _super = _createSuper(PresetPlayer2);
@@ -17538,7 +17538,7 @@ _defineProperty(PresetPlayer, "FullscreenIcon", Fullscreen);
 _defineProperty(PresetPlayer, "CssFullscreenIcon", CssFullScreen);
 _defineProperty(PresetPlayer, "VolumeIcon", Volume);
 
-// node_modules/xgplayer/es/presets/default-en.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/presets/default-en.js
 var DefaultPreset3 = _createClass(function DefaultPreset22(options, playerConfig) {
   var _this$plugins, _this$plugins2, _this$plugins3;
   _classCallCheck(this, DefaultPreset22);
@@ -17566,7 +17566,7 @@ var DefaultPreset3 = _createClass(function DefaultPreset22(options, playerConfig
   this.i18n = [];
 });
 
-// node_modules/xgplayer/es/presets/live.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/presets/live.js
 var DefaultPreset4 = _createClass(function DefaultPreset23() {
   var _this$plugins, _this$plugins2;
   _classCallCheck(this, DefaultPreset23);
@@ -17586,7 +17586,7 @@ var DefaultPreset4 = _createClass(function DefaultPreset23() {
   this.i18n = [ZH];
 });
 
-// node_modules/xgplayer/es/presets/mobile.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/presets/mobile.js
 var DefaultPreset5 = _createClass(function DefaultPreset24() {
   _classCallCheck(this, DefaultPreset24);
   var contolsIcons = [MobilePlugin, Progress, Play, Fullscreen, Time, Rotate, PlayNextIcon, DefinitionIcon, PlaybackRate, Download, ScreenShot, Volume, PIP];
@@ -17596,7 +17596,7 @@ var DefaultPreset5 = _createClass(function DefaultPreset24() {
   this.i18n = [ZH];
 });
 
-// node_modules/xgplayer/es/lang/zh-hk.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/lang/zh-hk.js
 var zhHk = {
   LANG: "zh-hk",
   TEXT: {
@@ -17674,7 +17674,7 @@ var zhHk = {
   }
 };
 
-// node_modules/xgplayer/es/lang/jp.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/lang/jp.js
 var jp = {
   LANG: "jp",
   TEXT: {
@@ -17752,7 +17752,7 @@ var jp = {
   }
 };
 
-// node_modules/xgplayer/es/lang/br.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/lang/br.js
 var br = {
   LANG: "br",
   TEXT: {
@@ -17830,7 +17830,7 @@ var br = {
   }
 };
 
-// node_modules/xgplayer/es/lang/de.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/lang/de.js
 var de = {
   LANG: "de",
   TEXT: {
@@ -17908,7 +17908,7 @@ var de = {
   }
 };
 
-// node_modules/xgplayer/es/lang/es.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/lang/es.js
 var es = {
   LANG: "es",
   TEXT: {
@@ -17986,7 +17986,7 @@ var es = {
   }
 };
 
-// node_modules/xgplayer/es/lang/fr.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/lang/fr.js
 var fr = {
   LANG: "fr",
   TEXT: {
@@ -18064,7 +18064,7 @@ var fr = {
   }
 };
 
-// node_modules/xgplayer/es/lang/id.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/lang/id.js
 var id = {
   LANG: "id",
   TEXT: {
@@ -18142,7 +18142,7 @@ var id = {
   }
 };
 
-// node_modules/xgplayer/es/lang/it.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/lang/it.js
 var it = {
   LANG: "it",
   TEXT: {
@@ -18220,7 +18220,7 @@ var it = {
   }
 };
 
-// node_modules/xgplayer/es/lang/kr.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/lang/kr.js
 var kr = {
   LANG: "kr",
   TEXT: {
@@ -18298,7 +18298,7 @@ var kr = {
   }
 };
 
-// node_modules/xgplayer/es/lang/ms-my.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/lang/ms-my.js
 var msMy = {
   LANG: "ms-my",
   TEXT: {
@@ -18376,7 +18376,7 @@ var msMy = {
   }
 };
 
-// node_modules/xgplayer/es/lang/ru.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/lang/ru.js
 var ru = {
   LANG: "ru",
   TEXT: {
@@ -18454,7 +18454,7 @@ var ru = {
   }
 };
 
-// node_modules/xgplayer/es/lang/th.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/lang/th.js
 var th = {
   LANG: "th",
   TEXT: {
@@ -18532,7 +18532,7 @@ var th = {
   }
 };
 
-// node_modules/xgplayer/es/lang/vn.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/lang/vn.js
 var vn = {
   LANG: "vn",
   TEXT: {
@@ -18610,15 +18610,15 @@ var vn = {
   }
 };
 
-// node_modules/xgplayer/es/plugins/danmu/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/danmu/index.js
 var import_danmu = __toESM(require_dist());
 
-// node_modules/xgplayer/es/plugins/assets/panel.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/assets/panel.js
 function PanelIcon() {
   return new DOMParser().parseFromString('<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -11 40 40" width="40" height="40">\n  <path fill="#f85959" transform="scale(0.8 0.8)" d="M36.5,18.73a1.19,1.19,0,0,0,1-1.14V16.33a1.2,1.2,0,0,0-1-1.13l-.61-.08a1.75,1.75,0,0,1-1.3-.86l-.21-.36-.2-.36A1.72,1.72,0,0,1,34,12l.23-.58a1.18,1.18,0,0,0-.5-1.42l-1.1-.62a1.18,1.18,0,0,0-1.47.3l-.39.51a1.82,1.82,0,0,1-1.41.72c-.44,0-1.88-.27-2.22-.7l-.39-.49a1.18,1.18,0,0,0-1.48-.28l-1.09.64a1.19,1.19,0,0,0-.47,1.43l.25.59a1.87,1.87,0,0,1-.08,1.58c-.26.37-1.17,1.5-1.71,1.58l-.63.09a1.19,1.19,0,0,0-1,1.14l0,1.27a1.17,1.17,0,0,0,1,1.12l.61.08a1.74,1.74,0,0,1,1.3.87l.21.36.2.35A1.69,1.69,0,0,1,24,22.08l-.23.59a1.19,1.19,0,0,0,.5,1.42l1.1.62a1.19,1.19,0,0,0,1.48-.31l.38-.5a1.83,1.83,0,0,1,1.41-.72c.44,0,1.88.25,2.22.69l.39.49a1.18,1.18,0,0,0,1.48.28L33.86,24a1.19,1.19,0,0,0,.47-1.43L34.09,22a1.84,1.84,0,0,1,.07-1.58c.26-.37,1.17-1.5,1.72-1.58ZM31,18.94a2.76,2.76,0,0,1-4.65-1.2A2.71,2.71,0,0,1,27,15.13a2.76,2.76,0,0,1,4.64,1.2A2.7,2.7,0,0,1,31,18.94Z"/>\n  <path fill="#f85959" transform="scale(0.8 0.8)" d="M32,0H3.59A3.59,3.59,0,0,0,0,3.59v17A3.59,3.59,0,0,0,3.59,24.2H19.72a12.59,12.59,0,0,1-.81-1.2A11.73,11.73,0,0,1,35.54,7.28V3.59A3.59,3.59,0,0,0,32,0ZM13,14.18H4.29a1.52,1.52,0,0,1,0-3H13a1.52,1.52,0,0,1,0,3ZM16.45,8H4.29a1.51,1.51,0,0,1,0-3H16.45a1.51,1.51,0,1,1,0,3Z"/>\n</svg>\n', "image/svg+xml").firstChild;
 }
 
-// node_modules/xgplayer/es/plugins/danmu/danmuPanel.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/danmu/danmuPanel.js
 var DanmuPanel = function(_Plugin) {
   _inherits(DanmuPanel2, _Plugin);
   var _super = _createSuper(DanmuPanel2);
@@ -18694,7 +18694,7 @@ var DanmuPanel = function(_Plugin) {
   return DanmuPanel2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/danmu/danmuIcon.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/danmu/danmuIcon.js
 var DANMU_OPEN = '<dk-switch class="danmu-switch">\n<span class="txt">弹</span>\n</dk-switch>';
 var DanmuIcon = function(_Plugin) {
   _inherits(DanmuIcon2, _Plugin);
@@ -18788,7 +18788,7 @@ var DanmuIcon = function(_Plugin) {
   return DanmuIcon2;
 }(Plugin);
 
-// node_modules/xgplayer/es/plugins/danmu/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/danmu/index.js
 var MIN_INTERVAL = 300;
 var Danmu = function(_Plugin) {
   _inherits(Danmu2, _Plugin);
@@ -19092,7 +19092,7 @@ var Danmu = function(_Plugin) {
   return Danmu2;
 }(Plugin);
 
-// node_modules/xgplayer-subtitles/es/_virtual/_rollupPluginBabelHelpers.js
+// node_modules/.pnpm/xgplayer-subtitles@3.0.23_core-js@3.48.0/node_modules/xgplayer-subtitles/es/_virtual/_rollupPluginBabelHelpers.js
 function ownKeys2(object, enumerableOnly) {
   var keys = Object.keys(object);
   if (Object.getOwnPropertySymbols) {
@@ -19275,10 +19275,10 @@ function _toPropertyKey2(arg) {
   return typeof key === "symbol" ? key : String(key);
 }
 
-// node_modules/xgplayer-subtitles/es/index.js
+// node_modules/.pnpm/xgplayer-subtitles@3.0.23_core-js@3.48.0/node_modules/xgplayer-subtitles/es/index.js
 var import_eventemitter34 = __toESM(require_eventemitter3());
 
-// node_modules/xgplayer-subtitles/es/parser.js
+// node_modules/.pnpm/xgplayer-subtitles@3.0.23_core-js@3.48.0/node_modules/xgplayer-subtitles/es/parser.js
 var VTT_CHECK = /^WEBVTT/i;
 var VTT_STYLE = /^STYLE+$/;
 var VTT_CUE = /^\:\:cue/;
@@ -19650,7 +19650,7 @@ var SubTitleParser = function() {
   return SubTitleParser2;
 }();
 
-// node_modules/xgplayer-subtitles/es/error.js
+// node_modules/.pnpm/xgplayer-subtitles@3.0.23_core-js@3.48.0/node_modules/xgplayer-subtitles/es/error.js
 var ERROR2 = [{
   code: 0,
   msg: "SUCCESS"
@@ -19694,7 +19694,7 @@ function _ERROR(code) {
   return ret;
 }
 
-// node_modules/xgplayer-subtitles/es/xhr.js
+// node_modules/.pnpm/xgplayer-subtitles@3.0.23_core-js@3.48.0/node_modules/xgplayer-subtitles/es/xhr.js
 var XHR = _createClass2(function XHR2() {
   var _ref = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {}, url = _ref.url, _ref$method = _ref.method, method = _ref$method === void 0 ? "GET" : _ref$method, _ref$type = _ref.type, type = _ref$type === void 0 ? "arraybuffer" : _ref$type, _ref$timeout = _ref.timeout, timeout = _ref$timeout === void 0 ? 1e4 : _ref$timeout, _ref$data = _ref.data, data = _ref$data === void 0 ? {} : _ref$data;
   var context = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
@@ -19760,7 +19760,7 @@ var XHR = _createClass2(function XHR2() {
   });
 });
 
-// node_modules/xgplayer-subtitles/es/proxyPromise.js
+// node_modules/.pnpm/xgplayer-subtitles@3.0.23_core-js@3.48.0/node_modules/xgplayer-subtitles/es/proxyPromise.js
 var ProxyPromise = function() {
   function ProxyPromise2() {
     _classCallCheck2(this, ProxyPromise2);
@@ -19795,7 +19795,7 @@ var ProxyPromise = function() {
   return ProxyPromise2;
 }();
 
-// node_modules/xgplayer-subtitles/es/utils.js
+// node_modules/.pnpm/xgplayer-subtitles@3.0.23_core-js@3.48.0/node_modules/xgplayer-subtitles/es/utils.js
 function hasClass(el, className) {
   if (!el) {
     return false;
@@ -20075,7 +20075,7 @@ function splitWords(str) {
   return retArr;
 }
 
-// node_modules/xgplayer-subtitles/es/observer.js
+// node_modules/.pnpm/xgplayer-subtitles@3.0.23_core-js@3.48.0/node_modules/xgplayer-subtitles/es/observer.js
 var ResizeObserver3 = function() {
   function ResizeObserver22() {
     var _this = this;
@@ -20173,7 +20173,7 @@ function unObserver2(target, handler) {
   resizeObserver2.unObserver(target, handler);
 }
 
-// node_modules/xgplayer-subtitles/es/constants.js
+// node_modules/.pnpm/xgplayer-subtitles@3.0.23_core-js@3.48.0/node_modules/xgplayer-subtitles/es/constants.js
 var EVENTS3 = {
   RESIZE: "resize",
   CHANGE: "change",
@@ -20181,7 +20181,7 @@ var EVENTS3 = {
   UPDATE: "update"
 };
 
-// node_modules/xgplayer-subtitles/es/index.js
+// node_modules/.pnpm/xgplayer-subtitles@3.0.23_core-js@3.48.0/node_modules/xgplayer-subtitles/es/index.js
 function formatUrl(url) {
   var ret = [];
   if (url && typeOf(url) === "String") {
@@ -21251,7 +21251,7 @@ var Subtitle = function(_EventEmitter) {
   return Subtitle2;
 }(import_eventemitter34.default);
 
-// node_modules/xgplayer/es/plugins/track/nativeSubTitle.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/track/nativeSubTitle.js
 var import_eventemitter35 = __toESM(require_eventemitter3());
 var NativeSubTitle = function(_EventEmitter) {
   _inherits(NativeSubTitle2, _EventEmitter);
@@ -21345,7 +21345,7 @@ var NativeSubTitle = function(_EventEmitter) {
   return NativeSubTitle2;
 }(import_eventemitter35.default);
 
-// node_modules/xgplayer/es/plugins/track/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/track/index.js
 var DEFAULT_TYPE = {
   CLOSE: "close",
   OPEN: "open",
@@ -21801,7 +21801,7 @@ var TextTrack = function(_OptionsIcon) {
   return TextTrack2;
 }(OptionsIcon);
 
-// node_modules/xgplayer/es/plugins/heatmap/index.js
+// node_modules/.pnpm/xgplayer@3.0.23_core-js@3.48.0/node_modules/xgplayer/es/plugins/heatmap/index.js
 var HeatMap = function(_Plugin) {
   _inherits(HeatMap2, _Plugin);
   var _super = _createSuper(HeatMap2);
