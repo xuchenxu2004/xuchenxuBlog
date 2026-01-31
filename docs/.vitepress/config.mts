@@ -50,9 +50,10 @@ export default defineConfig({
 
       { text: 'GUIDE',
         items:[
-          { text: 'MarkDown-学习', link: '/chunk_guide/Markdown入门简单用法' },
-          { text: 'Vitepress-架构', link: '/chunk_guide/Vitepress-index' },
-          { text: '', link: '/' },
+          { text: 'MarkDown入门学习', link: '/chunk_guide/Markdown入门简单用法' },
+          { text: 'Marksown进阶学习', link: '/chunk_guide/Markdown进阶' },          
+          { text: 'Vitepress架构', link: '/chunk_guide/Vitepress-index' },
+
           { text: '', link: '/' },
           { text: '', link: '/' },
           { text: '', link: '/' },
