@@ -24,7 +24,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: 'FRONT-END',
         items:[
-          { text: '前端三剑客入门', link: '/chunk_front_end/Three_Front-End_Masters' },
+          { text: '前端入门', link: '/chunk_front_end/Three_Front-End_Masters' },
           { text: '', link: '/' },
           { text: '', link: '/' },
           { text: '', link: '/' },
@@ -90,7 +90,7 @@ export default defineConfig({
         //分组标题
         text: 'FRONT-END LEARNING',
         items: [
-          { text: '前端三剑客入门', link: '/chunk_front_end/Three_Front-End_Masters' },
+          { text: '前端入门', link: '/chunk_front_end/Three_Front-End_Masters' },
           { text: '', link: '/' },
           { text: '', link: '/' },
           { text: '', link: '/' },

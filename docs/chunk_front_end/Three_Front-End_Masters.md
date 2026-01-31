@@ -1,4 +1,4 @@
-# 前端三剑客入门
+# 前端三剑客
 <Linkcard 
 url='https://www.bilibili.com/video/BV1BT4y1W7Aw/?p=8&share_source=copy_web&vd_source=d0caeb97a7ff1b5ffa5a2694d33664ae'
 title="学习来源" 

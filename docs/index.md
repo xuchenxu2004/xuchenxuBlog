@@ -32,3 +32,4 @@ features:
 ---
 <Linkcard url="https://www.xuchenxu2004.com/" title="XUCHENXU2004的主页" description="PRESENTED BY XUCHENXU2004" logo="https://zh.minecraft.wiki/images/Nether_Star.gif?ad381"/>
 <HomeUnderline />
+<confetti />
