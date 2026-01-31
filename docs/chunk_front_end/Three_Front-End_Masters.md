@@ -1,6 +1,14 @@
 # 前端三剑客
+
+<Linkcard 
+url='<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=923186071&bvid=BV1BT4y1W7Aw&cid=1391465636&p=8" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>'
+title="学习来源" 
+description="Bilibili: 3小时前端入门教程（HTML+CSS+JS）" 
+logo="https://www.bilibili.com/?spm_id_from=333.1007.0.0"/
+>
+
 ## HTML
-HTML通过一系列的 标签（也称 元素）、来定义文本、图像、链接等等。HTML标签是由尖括号包围的关键字。  
+HTML通过一系列的`标签`(也称`元素`)、来定义文本、图像、链接等等。HTML标签是由尖括号包围的关键字。  
 标签通常成对出现，包括开始标签和结束标签（也称为双标签），内容位于这两个标签之间，例如：
 ```html
 <p>这是一个段落。</p><h1>这是一个标题。</h1>
@@ -215,8 +223,8 @@ CSS 全名是`Cascading Style Sheets`，中文名`层叠样式表`。
 CSS 通常由`选择器`、`属性`和`属性值`组成，多个规则可以组合在一起，以便同时应用多个样式
 ```css
 选择器{
-属性1:属性值1;
-属性2:属性值2;
+    属性1:属性值1;
+    属性2:属性值2;
 }
 ```
 1. 选择器的声明中可以写无数条属性
@@ -224,7 +232,7 @@ CSS 通常由`选择器`、`属性`和`属性值`组成，多个规则可以组�
 3. 声明中的所有属性和值都是以键值对这种形式出现的；
 示例：
 ```css
-/*这是一个 P 标签选择器*/
+/*这是一个p标签选择器*/
 p {u    
     color: blue; 
     font-size: 16px;
