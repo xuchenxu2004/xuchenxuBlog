@@ -1,2 +1,5 @@
-# XUCHENXU's Blog
-基于Vitepress的静态网页
+# XUCHENXU2004's Blog
+## 项目简介
+这是一个基于 Vitepress 搭建的个人博客项目
+## 项目时间
+该项目始于 2026年1月29日 ，于寒假期间择时搭建。
