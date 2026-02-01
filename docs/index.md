@@ -18,9 +18,10 @@ hero: #整个屏幕的上半部分
       link: /nav/index
 
 ---
-<Linkcard url="https://vitepress.yiov.top/" title="Vitepress中文搭建教程" description="https://vitepress.yiov.top/" logo="https://vitepress.yiov.top/logo.png"/>
 <!-- 个人链接 -->
-<!-- <Linkcard url="https://www.xuchenxu2004.com/" title="XUCHENXU2004的主页" description="PRESENTED BY XUCHENXU2004" logo="https://zh.minecraft.wiki/images/Nether_Star.gif?ad381"/> -->
+<Linkcard url="https://www.xuchenxu2004.com/" title="XUCHENXU2004的主页" description="PRESENTED BY XUCHENXU2004" logo="https://zh.minecraft.wiki/images/Nether_Star.gif?ad381"/>
+<Linkcard url="https://vitepress.yiov.top/" title="Vitepress中文搭建教程" description="https://vitepress.yiov.top/" logo="https://vitepress.yiov.top/logo.png"/>
+
 
 <HomeUnderline />
 <confetti />
