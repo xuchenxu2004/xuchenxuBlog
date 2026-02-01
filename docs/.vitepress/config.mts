@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { defineTeekConfig } from "vitepress-theme-teek/config";
 
 import markdownItTaskCheckbox from 'markdown-it-task-checkbox'
 import vitepressProtectPlugin from "vitepress-protect-plugin"
@@ -9,8 +10,16 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 
 // import { generateSidebar } from 'vitepress-sidebar';  //自动侧边栏（暂时用不到）
 
+// Teek 主题配置
+const teekConfig = defineTeekConfig({
+  teekTheme: true,
+  logo: "/web_logo.png",
+});
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  extends:teekConfig,
+
   head: [
     ['link',{ rel: 'icon', href: '/web_logo.png'}],
   ],
@@ -23,90 +32,29 @@ export default defineConfig({
   themeConfig: {
     logo: '/web_logo.png',
     // https://vitepress.dev/reference/default-theme-config
-
     //顶部导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: 'FRONT-END',
-        items:[
-          { text: '前端入门', link: '/chunk_front_end/Three_Front-End_Masters' },
-          { text: '', link: '/' },
-        ]
-      },
-      { text: 'COMPUTER SCIENCE',
-        items:[
-          { text: '机器学习', link: '/chunk_computer_science/机器学习' },
-          { text: '', link: '/' },
-        ]
-      },
-      { text: 'GUIDE',
-        items:[
-          { text: '由此开始', link: '/chunk_guide/01.由此开始' },
-          { text: 'MarkDown入门学习', link: '/chunk_guide/Markdown入门简单用法' },
-          { text: 'Marksown进阶学习', link: '/chunk_guide/Markdown进阶' },          
-          { text: 'Vitepress架构', link: '/chunk_guide/Vitepress-index' },
-          { text: '', link: '/' },
-        ]
-      },
-      { text: '站点导航',
-        //分组标题
-        items: [
-          { text: 'Vitepress中文站', link: 'https://vitepress.dev/zh/' },
-          { text: '茂茂前端导航模版', link: 'https://fe-nav.netlify.app/' },
-          { text: 'Vitepress中文教程', link: 'https://vitepress.yiov.top/' },
-          { text: "伊奥's 教程集", link: 'http://yiov.top/' },
-          { text: "Goat_Yang的文档网站", link: 'https://goatyang.com/' },
-          { text: "AlbertZhang的文档网站", link: 'https://docs.bugdesigner.cn/' },
-          { text: "正心全栈编程 - 文档站", link: 'https://docs.zhengxinonly.com/' },
-          { text: 'Vitepress Plugin Group Icons', link: 'https://vp.yuy1n.io/' },
-          { text: 'Teek Design Vue3', link: 'https://vue3-design-docs.teek.top/' },
-        ]
-      },
+      { text: '微机技术', link: '/10.微机技术/01.微机技术' },
+      { text: '人工智能', link: '/20.人工智能/01.人工智能' },
+      { text: '文化有限', link: '/40.文化有限/01.文化有限' },
+      { text: '生活爱好', link: '/60.生活爱好/01.生活爱好' },
+      { text: '指南', link: '/99.指南/01.指南' },
+      // { text: '站点导航',
+      //   //分组标题
+      //   items: [
+      //     { text: 'Vitepress中文站', link: 'https://vitepress.dev/zh/' },
+      //     { text: '茂茂前端导航模版', link: 'https://fe-nav.netlify.app/' },
+      //     { text: 'Vitepress中文教程', link: 'https://vitepress.yiov.top/' },
+      //     { text: "伊奥's 教程集", link: 'http://yiov.top/' },
+      //     { text: "Goat_Yang的文档网站", link: 'https://goatyang.com/' },
+      //     { text: "AlbertZhang的文档网站", link: 'https://docs.bugdesigner.cn/' },
+      //     { text: "正心全栈编程 - 文档站", link: 'https://docs.zhengxinonly.com/' },
+      //     { text: 'Vitepress Plugin Group Icons', link: 'https://vp.yuy1n.io/' },
+      //     { text: 'Teek Design Vue3', link: 'https://vue3-design-docs.teek.top/' },
+      //   ]
+      // },
     ],
-    //自定义侧边栏
-    sidebar: {
-      // 目录1
-      '/chunk_front_end/': [
-        { 
-        //分组标题
-        text: 'FRONT-END LEARNING',
-        items: [
-          { text: '前端入门', link: '/chunk_front_end/Three_Front-End_Masters' },
-          { text: '', link: '/' },
-          { text: '', link: '/' },
-          { text: '', link: '/' },
-          ]
-        }
-      ],
-      '/chunk_guide/': [
-        {
-          text: 'GUIDE',
-          items: [
-            { text: '由此开始', link: '/chunk_guide/01.由此开始' },            
-            { text: 'MarkDown学习', link: '/chunk_guide/Markdown入门简单用法' },
-            { text: 'Markdown进阶', link: '/chunk_guide/Markdown进阶' },
-            { text: 'Vitepress架构', link: '/chunk_guide/Vitepress-index' },             
-          ],
-        },
-      ],
-      '/chunk_books/': [
-        {
-          text: 'BOOKS',
-          items: [
-            { text: '窄门', link: '/chunk_books/窄门' },
-            { text: '局外人', link: '/chunk_books/局外人' },
-          ],
-        },
-      ],
-      '/chunk_computer_science/': [
-        {
-          text: 'COMPUTER SCIENCE',
-          items: [
-            { text: '机器学习', link: '/chunk_computer_science/机器学习' },
-          ],
-        },
-      ],
-    },
     //社交链接,内置的都是国外的，国内的都需要通过svg自行复制。
     socialLinks: [
       { icon: 'github', link: 'https://github.com/xuchenxu2004' },

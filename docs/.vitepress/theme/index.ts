@@ -1,27 +1,27 @@
-import DefaultTheme from 'vitepress/theme'
-// giscusTalk:评论系统
-import giscusTalk from 'vitepress-plugin-comment-with-giscus';
-// 进度条
-import { NProgress } from 'nprogress-v2/dist/index.js'
-// 样式
-import 'nprogress-v2/dist/index.css'
-import 'virtual:group-icons.css' //代码组样式
-import './style/index.css' //自定义样式
+import DefaultTheme from 'vitepress/theme'  
 
-import { h } from 'vue' // h函数
+import { TkCataloguePage } from "vitepress-theme-teek";         // 目录页
+
+import giscusTalk from 'vitepress-plugin-comment-with-giscus';  // giscusTalk:评论系统
+import { NProgress } from 'nprogress-v2/dist/index.js'          // 进度条
+import 'nprogress-v2/dist/index.css'    // 样式
+import 'virtual:group-icons.css'        //代码组样式
+import './style/index.css'              //自定义样式
+import { h } from 'vue'                 // h函数
 import { Theme, useData , useRoute } from 'vitepress'
-// mediumZoom
-import mediumZoom from 'medium-zoom';
+import mediumZoom from 'medium-zoom';             // mediumZoom
 import { onMounted, watch, nextTick } from 'vue'; //图片缩放功能
 
-import type { App } from 'vue'
-import type { Router } from 'vitepress'
 interface EnhanceAppContext {
   app: App
   router: Router
   siteData: any
 }
+import type { App } from 'vue'                    //用于注册全局组件
+import type { Router } from 'vitepress'
 
+import Teek from "vitepress-theme-teek";
+import "vitepress-theme-teek/index.css";          //引入Teek主题组件       
 // 组件
 import MNavLinks from './components/MNavLinks.vue' //导航
 import HomeUnderline from "./components/HomeUnderline.vue" // 首页下划线
