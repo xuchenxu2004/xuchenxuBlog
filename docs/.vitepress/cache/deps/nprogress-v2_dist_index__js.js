@@ -1,7 +1,7 @@
 import {
   __commonJS,
   __publicField
-} from "./chunk-DC5AMYBS.js";
+} from "./chunk-FDBJFBLO.js";
 
 // node_modules/.pnpm/nprogress-v2@1.1.10/node_modules/nprogress-v2/dist/index.js
 var require_dist = __commonJS({

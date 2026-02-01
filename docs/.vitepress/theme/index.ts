@@ -1,6 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
-
-// giscusTalk
+// giscusTalk:评论系统
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 // 进度条
 import { NProgress } from 'nprogress-v2/dist/index.js'
@@ -13,7 +12,7 @@ import { h } from 'vue' // h函数
 import { Theme, useData , useRoute } from 'vitepress'
 // mediumZoom
 import mediumZoom from 'medium-zoom';
-import { onMounted, watch, nextTick } from 'vue';
+import { onMounted, watch, nextTick } from 'vue'; //图片缩放功能
 
 import type { App } from 'vue'
 import type { Router } from 'vitepress'
@@ -102,7 +101,7 @@ export default {
     return h(MyLayout,props)
   },
   
-  // medium-zoom
+  // medium-zoom 图片缩放
   setup() {
     const route = useRoute();
     const initZoom = () => {
@@ -136,7 +135,7 @@ export default {
       //默认值为true，表示已启用，此参数可以忽略；
       //如果为false，则表示未启用
       //您可以使用“comment:true”序言在页面上单独启用它
-      true
+      false
     );
 
   },
