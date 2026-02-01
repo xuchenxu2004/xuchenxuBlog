@@ -41,6 +41,7 @@ export default defineConfig({
       },
       { text: 'GUIDE',
         items:[
+          { text: '由此开始', link: '/chunk_guide/01.由此开始' },
           { text: 'MarkDown入门学习', link: '/chunk_guide/Markdown入门简单用法' },
           { text: 'Marksown进阶学习', link: '/chunk_guide/Markdown进阶' },          
           { text: 'Vitepress架构', link: '/chunk_guide/Vitepress-index' },
@@ -81,6 +82,7 @@ export default defineConfig({
         {
           text: 'GUIDE',
           items: [
+            { text: '由此开始', link: '/chunk_guide/01.由此开始' },            
             { text: 'MarkDown学习', link: '/chunk_guide/Markdown入门简单用法' },
             { text: 'Markdown进阶', link: '/chunk_guide/Markdown进阶' },
             { text: 'Vitepress架构', link: '/chunk_guide/Vitepress-index' },             
@@ -165,6 +167,7 @@ export default defineConfig({
     },
 
     config: (md) => {
+      md.use(markdownItTaskCheckbox) //todo
       // 组件插入h1标题下
       md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
         let htmlResult = slf.renderToken(tokens, idx, options)
@@ -224,10 +227,11 @@ export default defineConfig({
       })
       
       md.use(groupIconMdPlugin) //代码组图标
-      md.use(markdownItTaskCheckbox) //todo
-      md.use(MermaidMarkdown); 
+
+      md.use(MermaidMarkdown)
 
     }
+    
 
   },
 
