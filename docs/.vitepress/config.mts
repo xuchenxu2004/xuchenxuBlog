@@ -40,20 +40,6 @@ export default defineConfig({
       { text: '文化有限', link: '/40.文化有限/01.文化有限' },
       { text: '生活爱好', link: '/60.生活爱好/01.生活爱好' },
       { text: '指南', link: '/99.指南/01.指南' },
-      // { text: '站点导航',
-      //   //分组标题
-      //   items: [
-      //     { text: 'Vitepress中文站', link: 'https://vitepress.dev/zh/' },
-      //     { text: '茂茂前端导航模版', link: 'https://fe-nav.netlify.app/' },
-      //     { text: 'Vitepress中文教程', link: 'https://vitepress.yiov.top/' },
-      //     { text: "伊奥's 教程集", link: 'http://yiov.top/' },
-      //     { text: "Goat_Yang的文档网站", link: 'https://goatyang.com/' },
-      //     { text: "AlbertZhang的文档网站", link: 'https://docs.bugdesigner.cn/' },
-      //     { text: "正心全栈编程 - 文档站", link: 'https://docs.zhengxinonly.com/' },
-      //     { text: 'Vitepress Plugin Group Icons', link: 'https://vp.yuy1n.io/' },
-      //     { text: 'Teek Design Vue3', link: 'https://vue3-design-docs.teek.top/' },
-      //   ]
-      // },
     ],
     //社交链接,内置的都是国外的，国内的都需要通过svg自行复制。
     socialLinks: [
