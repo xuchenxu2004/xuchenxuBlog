@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
-import { defineTeekConfig } from "vitepress-theme-teek/config";
 
+import timeline from "vitepress-markdown-timeline"; //时间线组件
 import markdownItTaskCheckbox from 'markdown-it-task-checkbox'
 import vitepressProtectPlugin from "vitepress-protect-plugin"
 
@@ -8,8 +8,8 @@ import { groupIconMdPlugin, groupIconVitePlugin, localIconLoader } from 'vitepre
 import { MermaidMarkdown, MermaidPlugin } from 'vitepress-plugin-mermaid';
 import { withMermaid } from 'vitepress-plugin-mermaid'
 
-// import { generateSidebar } from 'vitepress-sidebar';  //自动侧边栏（暂时用不到）
-
+// Teek 主题引入
+import { defineTeekConfig } from "vitepress-theme-teek/config";
 // Teek 主题配置
 const teekConfig = defineTeekConfig({
   teekTheme: true,
@@ -115,7 +115,7 @@ export default defineConfig({
     },
 
     config: (md) => {
-      md.use(markdownItTaskCheckbox) //todo
+
       // 组件插入h1标题下
       md.renderer.rules.heading_close = (tokens, idx, options, env, slf) => {
         let htmlResult = slf.renderToken(tokens, idx, options)
@@ -175,9 +175,9 @@ export default defineConfig({
       })
       
       md.use(groupIconMdPlugin) //代码组图标
-
-      md.use(MermaidMarkdown)
-
+      md.use(markdownItTaskCheckbox) //todo
+      md.use(MermaidMarkdown) //时间线
+      md.use(timeline);
     }
     
 

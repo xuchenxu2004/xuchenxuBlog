@@ -12,27 +12,42 @@ hero: #整个屏幕的上半部分
   image:
     src: /Enchanted_Book.gif
     alt: 主页背景
-  actions:
-    - theme: brand
-      text: 书中自有黄金屋
-      link: "/chunk_books/窄门"
+  # actions:
+  #   - theme: brand
+  #     text: 书中自有黄金屋
+  #     link: "/chunk_books/窄门"
 
-
-features:
-  - title: 技能学习
-    details: 主要是计算机相关的技能学习
-    link: "/chunk_computer_science/机器学习"
-  - title: 读书笔记
-    details: 好词好句摘录，或许会有感想
-    link: "/chunk_books/窄门"
-  - title: 语言学习
-    details: 想学日语和英语，感觉会记录一些方法的学习过程
-  - title: 生活爱好
-    details: 想放一点摄影图片，做一些摄影教程
+# features:
+#   - title: 技能学习
+#     details: 主要是计算机相关的技能学习
+#     link: "/chunk_computer_science/机器学习"
+#   - title: 读书笔记
+#     details: 好词好句摘录，或许会有感想
+#     link: "/chunk_books/窄门"
+#   - title: 语言学习
+#     details: 想学日语和英语，感觉会记录一些方法的学习过程
+#   - title: 生活爱好
+#     details: 想放一点摄影图片，做一些摄影教程
 ---
-<Linkcard url="https://www.xuchenxu2004.com/" title="XUCHENXU2004的主页" description="PRESENTED BY XUCHENXU2004" logo="https://zh.minecraft.wiki/images/Nether_Star.gif?ad381"/>
+<!-- <Linkcard url="https://www.xuchenxu2004.com/" title="XUCHENXU2004的主页" description="PRESENTED BY XUCHENXU2004" logo="https://zh.minecraft.wiki/images/Nether_Star.gif?ad381"/>
+ -->
 
-- [x] Go to bed
+<!-- ---
+layout: doc
+layoutClass: m-nav-layout
+sidebar: true
+prev: false
+next: false
+--- -->
+<!-- 
+<style src="/.vitepress/theme/style/nav.css"></style>
+
+<script setup>
+import { NAV_DATA } from '/.vitepress/theme/untils/data'
+</script>
+
+<MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>
+ -->
 
 <HomeUnderline />
 <confetti />

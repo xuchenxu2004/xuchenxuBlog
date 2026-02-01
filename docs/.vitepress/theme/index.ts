@@ -8,10 +8,10 @@ import 'nprogress-v2/dist/index.css'    // 样式
 import 'virtual:group-icons.css'        //代码组样式
 import './style/index.css'              //自定义样式
 import { h } from 'vue'                 // h函数
-import { Theme, useData , useRoute } from 'vitepress'
+import { Theme, useData , useRoute } from 'vitepress'           // 导航功能
 import mediumZoom from 'medium-zoom';             // mediumZoom
 import { onMounted, watch, nextTick } from 'vue'; //图片缩放功能
-
+import "vitepress-markdown-timeline/dist/theme/index.css";
 interface EnhanceAppContext {
   app: App
   router: Router
