@@ -13,6 +13,11 @@ aside: false
 [Vitepress中文教程](https://vitepress.yiov.top/)<br>
 [Vitepress Theme Teek 文档网站](https://vp.teek.top/)<br>
 [Vitepress Theme Teek 案例分享](https://vp.teek.top/resources/case.html)<br>
+
+## 前端学习路径
+[现代前端开发学习路线](https://front-talk.com/roadmap)<br>
+
+
 ## 博客链接
 [Goat_Yang的文档网站](https://goatyang.com/)<br>
 [伊奥's 教程集](http://yiov.top/)<br>
