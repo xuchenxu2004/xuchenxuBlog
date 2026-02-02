@@ -9,6 +9,7 @@ aside: false
 ## 官方网站
 [Vitepress中文站](https://vitepress.dev/zh)<br>
 [Vue.js 官方网站](https://cn.vuejs.org/)<br>
+[Obsidian 官方网站](https://publish.obsidian.md/help-zh/%E7%94%B1%E6%AD%A4%E5%BC%80%E5%A7%8B)<br>
 ## 搭建参考
 [Vitepress中文教程](https://vitepress.yiov.top/)<br>
 [Vitepress Theme Teek 文档网站](https://vp.teek.top/)<br>
