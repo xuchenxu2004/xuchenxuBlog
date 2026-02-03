@@ -13,7 +13,7 @@ import { defineTeekConfig } from "vitepress-theme-teek/config";
 // Teek 主题配置
 const teekConfig = defineTeekConfig({
   teekTheme: true,
-  logo: "/web_logo.png",
+  // logo: "/web_logo.png",
 });
 
 // https://vitepress.dev/reference/site-config
